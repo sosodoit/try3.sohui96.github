@@ -6,14 +6,15 @@
 </description>
     <link>https://github.com/sohui96/</link>
     <atom:link href="https://github.com/sohui96/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Apr 2021 01:21:09 +0900</pubDate>
-    <lastBuildDate>Mon, 26 Apr 2021 01:21:09 +0900</lastBuildDate>
+    <pubDate>Mon, 26 Apr 2021 01:36:01 +0900</pubDate>
+    <lastBuildDate>Mon, 26 Apr 2021 01:36:01 +0900</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>test</title>
-        <description>&lt;p&gt;categories name test
-소문자 대문자 상관없다.&lt;/p&gt;
+        <title>test2</title>
+        <description>&lt;p&gt;categories name test&lt;/p&gt;
+
+&lt;p&gt;소문자 대문자 상관없다.&lt;/p&gt;
 </description>
         <pubDate>Mon, 26 Apr 2021 00:00:00 +0900</pubDate>
         <link>https://github.com/sohui96/2021-04/test2</link>
