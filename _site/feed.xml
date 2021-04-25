@@ -4,10 +4,10 @@
     <title>Hello, Here is work diary.</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>https://github.com/sohui96/</link>
-    <atom:link href="https://github.com/sohui96/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Apr 2021 01:36:01 +0900</pubDate>
-    <lastBuildDate>Mon, 26 Apr 2021 01:36:01 +0900</lastBuildDate>
+    <link>https://sohui96.github.io/</link>
+    <atom:link href="https://sohui96.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 26 Apr 2021 02:02:33 +0900</pubDate>
+    <lastBuildDate>Mon, 26 Apr 2021 02:02:33 +0900</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -17,8 +17,8 @@
 &lt;p&gt;소문자 대문자 상관없다.&lt;/p&gt;
 </description>
         <pubDate>Mon, 26 Apr 2021 00:00:00 +0900</pubDate>
-        <link>https://github.com/sohui96/2021-04/test2</link>
-        <guid isPermaLink="true">https://github.com/sohui96/2021-04/test2</guid>
+        <link>https://sohui96.github.io/2021-04/test2</link>
+        <guid isPermaLink="true">https://sohui96.github.io/2021-04/test2</guid>
         
         
         <category>AI developer diary</category>
@@ -30,8 +30,8 @@
         <description>&lt;p&gt;4/26 start my AI developer work&lt;/p&gt;
 </description>
         <pubDate>Mon, 26 Apr 2021 00:00:00 +0900</pubDate>
-        <link>https://github.com/sohui96/2021-04/test</link>
-        <guid isPermaLink="true">https://github.com/sohui96/2021-04/test</guid>
+        <link>https://sohui96.github.io/2021-04/test</link>
+        <guid isPermaLink="true">https://sohui96.github.io/2021-04/test</guid>
         
         
         <category>ai</category>
@@ -43,8 +43,8 @@
         <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
 </description>
         <pubDate>Wed, 04 Jul 2018 00:00:00 +0900</pubDate>
-        <link>https://github.com/sohui96/2018-07/t1</link>
-        <guid isPermaLink="true">https://github.com/sohui96/2018-07/t1</guid>
+        <link>https://sohui96.github.io/2018-07/t1</link>
+        <guid isPermaLink="true">https://sohui96.github.io/2018-07/t1</guid>
         
         
         <category>travel</category>
@@ -97,8 +97,8 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
         <pubDate>Wed, 01 Nov 2017 00:00:00 +0900</pubDate>
-        <link>https://github.com/sohui96/2017-11/s2</link>
-        <guid isPermaLink="true">https://github.com/sohui96/2017-11/s2</guid>
+        <link>https://sohui96.github.io/2017-11/s2</link>
+        <guid isPermaLink="true">https://sohui96.github.io/2017-11/s2</guid>
         
         
         <category>writing</category>
@@ -124,8 +124,8 @@
 
 </description>
         <pubDate>Tue, 24 Oct 2017 00:00:00 +0900</pubDate>
-        <link>https://github.com/sohui96/2017-10/welcome</link>
-        <guid isPermaLink="true">https://github.com/sohui96/2017-10/welcome</guid>
+        <link>https://sohui96.github.io/2017-10/welcome</link>
+        <guid isPermaLink="true">https://sohui96.github.io/2017-10/welcome</guid>
         
         
         <category>dev</category>
