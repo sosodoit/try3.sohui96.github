@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
-baseurl: # the subpath of the site
+baseurl: https://github.com/sohui96 # the subpath of the site
 url: https://github.com/sohui96 # the base hostname & protocol for your site
 
 permalink: /:year-:month/:title
@@ -20,7 +20,7 @@ disqus_shortname: #disqus shortname
 user:
   name: kim
   pic: /assets/img/my.png
-  picAlt: "catbook"
+  picAlt: "Hello"
   job: everyday 취준생 life
   aboutme: true # comment this out if you don't need the 'about' page.
 
