@@ -6,9 +6,23 @@
 </description>
     <link>https://github.com/sohui96/</link>
     <atom:link href="https://github.com/sohui96/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Apr 2021 01:03:05 +0900</pubDate>
-    <lastBuildDate>Mon, 26 Apr 2021 01:03:05 +0900</lastBuildDate>
+    <pubDate>Mon, 26 Apr 2021 01:18:15 +0900</pubDate>
+    <lastBuildDate>Mon, 26 Apr 2021 01:18:15 +0900</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>test</title>
+        <description>&lt;p&gt;categories name test
+소문자 대문자 상관없다.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 26 Apr 2021 00:00:00 +0900</pubDate>
+        <link>https://github.com/sohui96/2021-04/test2</link>
+        <guid isPermaLink="true">https://github.com/sohui96/2021-04/test2</guid>
+        
+        
+        <category>AI developer diary</category>
+        
+      </item>
     
       <item>
         <title>test</title>
