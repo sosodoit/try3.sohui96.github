@@ -1,34 +1,15 @@
-# Catbook
-CATbook is a CATegory-centric Jekyll theme for bloggers. There is a switch button to toggle between dark mode and light mode. This theme is originally inspired from [Book](https://github.com/kkninjae/book).
+## About Me
+안녕하세요. 깃블로그에서 저의 **직무관련 경험**을 꾸준히 **기록**해 보고자 합니다. **프로그래밍**과 관련한 실습 및 **프로젝트**에 대하여 포스팅할 생각입니다. 깃블로그도 조금씩 그리고 천천히 커스터마이징을 해보려고 합니다. **일상**이나 다른 **이슈**가 궁금하시다면 저의 **블로그**에 한 번 들려주세요. 프로젝트나 스터디 혹은 공적인 업무로서 연락도 열려있습니다. 아래 기재된 메일로 연락주세요.
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) ![GENERATOR](https://img.shields.io/badge/made_with-jekyll-blue.svg) ![VERSION](https://img.shields.io/badge/current_version-1.0-green.svg)
+읽어주셔서 감사합니다.    
 
-**Demo:** https://starry99.github.io/catbook/
+연락처: helloahri21@naver.com   
+블로그: https://blog.naver.com/helloahri21
 
-![SCREENSHOT](https://starry99.github.io/catbook/assets/img/lmode.jpg)
-![SCREENSHOT](https://starry99.github.io/catbook/assets/img/dmode.jpg)
-
-## Setup
-
-```sh
-$ git clone https://github.com/starry99/catbook
-$ jekyll serve
-
-# Now you can start customization!
-```
-
-## Make it yours
-
-If you want to create a new category, you need to create `*name*.html` in the `categories` folder. And add the following content:
-```html
----
-layout: page
-type: *name*
----
-
-{% include archive.html %}
-```
-Then the number of pages in the category will be displayed.
+## Structure
+Github: 프로그래밍, 프로젝트, 데이콘/캐글 등 꾸준한 개발자 생활 - 올해목표..
+GitBlog: 프로그래밍, 프로젝트
+Blog: 일상, 스터디, 이슈 (깃블로그에 익숙해지고 통제할 수 있을 때 옮겨 갈 예정)
 
 ## License
 

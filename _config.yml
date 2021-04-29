@@ -18,10 +18,11 @@ google_analytics: #UA—XXXXXXXX-X
 disqus_shortname: #disqus shortname
 
 user:
-  name: kim
+  name: Nigella Kim
   pic: /assets/img/my.png
   picAlt: "Hello"
-  job: everyday 취준생 life
+  job: AI>>게임산업>>농업시스템>미래재난예측에
+      관심 있는 주주주니어개발자입니다.
   aboutme: true # comment this out if you don't need the 'about' page.
 
 exclude:
