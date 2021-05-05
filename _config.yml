@@ -14,7 +14,14 @@ timezone:
 
 favicon: /assets/img/my.ico
 
+# Social info
+navigation: True
+# Navigation bar link를 보여줄건지 여부
+
 google_analytics: #UA—XXXXXXXX-X
+
+# Disqus
+# disqus: True
 comments:
   provider: "disqus" 
   disqus_shortname: nigella-kim #disqus shortname
