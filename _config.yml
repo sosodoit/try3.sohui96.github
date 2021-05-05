@@ -15,15 +15,36 @@ timezone:
 favicon: /assets/img/my.ico
 
 google_analytics: #UA—XXXXXXXX-X
-disqus_shortname: #disqus shortname
+comments:
+  provider: "disqus" 
+  disqus_shortname: nigella-kim #disqus shortname
 
+# Site Author
 user:
   name: Nigella Kim
   pic: /assets/img/my.png
   picAlt: "Hello"
-  job: AI>>게임산업>>농업시스템>미래재난예측에
-      관심 있는 주주주니어개발자입니다.
+  job: 개발자가 되기 위해 공부하고 있습니다. <br> 
   aboutme: true # comment this out if you don't need the 'about' page.
+  location: "Republic of Korea"
+  email: "helloahri21@naver.com"
+  links:
+    - label: "Email"
+      icon: /assets/img/my.ico
+      url: mailto:helloahri21@naver.com
+    - label: "GitHub"
+      icon: /assets/img/my.ico
+      url: "https://github.com/sohui96"
+
+# Site Footer
+footer:
+  links:
+    - label: "Email"
+      icon: /assets/img/my.ico
+      url: mailto:helloahri21@naver.com
+    - label: "GitHub"
+      icon: /assets/img/my.ico
+      url: "https://github.com/sohui96"
 
 exclude:
   - README.md
@@ -36,7 +57,18 @@ defaults:
       type: posts
     values:
       layout: post
-      comment: true   
+      comment: true
+      author_profile: true
+      read_time: true
+      share: true
+      related: true 
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown 
