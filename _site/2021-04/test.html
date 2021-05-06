@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 
 
 <head>
-  <title>test | Hello, Here is work diary.</title>
+  <title>test2 | Hello, Here is work diary.</title>
   
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,8 +25,9 @@
 </head>
 
 <body>
+  
   <div class="content">
-
+    
     <header class="header">
 
   <div class="header_content">
@@ -45,15 +46,18 @@
       
       <ul class="nav_list">
         <li class="nav_item">
-          <a href="/aboutme.html">about</a>
+          <a href="/aboutme.html">About me</a><br>
+          <a href="/Project">[Project]</a>
+          <a href="/AI">[AI]</a>
         </li>
       </ul>
+      <br><br>
       
       
       
       <ul class="nav_list">
         <li class="nav_item">
-          <a href="/categories/writing1" id="aa">writing1
+          <a href="/categories/Project" id="aa">Project
             (2)</a>
         </li>
       </ul>
@@ -80,7 +84,6 @@
 </header>
 
 
-
     <nav class="mobile_menu">
 
   <ul class="nav_list">
@@ -94,7 +97,7 @@
     
 
     <li class="nav_item">
-      <a href="/categories/writing1" id="aa">writing1 (2)</a>
+      <a href="/categories/Project" id="aa">Project (2)</a>
     </li>
     
     
@@ -116,39 +119,73 @@
     <main class="main">
 
     <div class="post">
-  <div>
+  <div class="post-info">
+    <span>Written by</span>
     
-    <p class="post_title">test</p>
+        
     
-  </div>
-  <div class="post_data">
-    
-    <span class="post_date">Apr 29, 2021</span>
-    
-    
-    <span class="post_categories">
-      &raquo; 
-      <a href="/categories/Certificate">Certificate</a>,
-      
-      <a href="/categories/writing1">writing1</a>
-    </span>
-    
-  </div>
-  <div class="post_content">
-    <p>삐빅. 텍스트 테스트 업로드 테스트.</p>
 
+    
+      <br>
+      <span>on&nbsp;</span><time datetime="2021-04-29 00:00:00 +0900">April 29, 2021</time>
+    
   </div>
 
-  
-  
-  
+  <h1 class="post-title">test2</h1>
+  <div class="post-line"></div>
+
+  <p>삐빅. 텍스트 테스트 업로드 테스트.
+.
+├──_includes
+|   ├── archive.html
+|   ├── disqus.html
+|   ├── footer.html
+|   ├── google_analytics.html
+|   ├── head.html
+|   ├── header.html
+|   ├── js.html
+|   └── mobile_menu.html
+├── _layouts
+|   ├── category.html
+|   ├── page.html
+|   └── post.html
+├── _pages
+|   ├── category-archive.html
+|   ├── tag-archive.html
+|   └── year-archive.html
+├── _posts
+|   ├── 2021-04-30-diary.md
+|   └── 2021-05-06-diary.md
+├── _categories
+|   ├── AI developer Diary.html
+|   └── index.html
+├── AI
+|   └── index.html      # AI 카테고리 페이지
+├── Project
+|   └── index.html      # Project 카테고리 페이지
+├── _config.yml
+├── Gemfile
+└── index.html</p>
+
 
 </div>
 
+
+
+<div class="pagination">
+  
+    <a href="/2021-04/diary4" class="left arrow">&#8592;</a>
+  
+  
+    <a href="/2021-04/diary3" class="right arrow">&#8594;</a>
+  
+
+  <a href="#" class="top">Top</a>
+</div>
+
     </main>
-
+  
   </div>
-
   <footer class="footer">
   <div>
     팔로우:
@@ -229,6 +266,5 @@
         }, false);
     }, false);
 </script>
-  
 </body>
 </html>

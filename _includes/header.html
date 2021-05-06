@@ -16,9 +16,12 @@
       {% if site.user.aboutme %}
       <ul class="nav_list">
         <li class="nav_item">
-          <a href="{{ site.baseurl }}/aboutme.html">about</a>
+          <a href="{{ site.baseurl }}/aboutme.html">About me</a><br>
+          <a href="{{ '/Project' | prepend: site.baseurl }}">[Project]</a>
+          <a href="{{ '/AI' | prepend: site.baseurl }}">[AI]</a>
         </li>
       </ul>
+      <br><br>
       {% endif %}
       {% for category in site.categories %}
       {% capture cat_name %}{{ category | first }}{% endcapture %}

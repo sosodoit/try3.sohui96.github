@@ -1,0 +1,33 @@
+I"y<p>삐빅. 텍스트 테스트 업로드 테스트.
+.
+├──_includes
+|   ├── archive.html
+|   ├── disqus.html
+|   ├── footer.html
+|   ├── google_analytics.html
+|   ├── head.html
+|   ├── header.html
+|   ├── js.html
+|   └── mobile_menu.html
+├── _layouts
+|   ├── category.html
+|   ├── page.html
+|   └── post.html
+├── _pages
+|   ├── category-archive.html
+|   ├── tag-archive.html
+|   └── year-archive.html
+├── _posts
+|   ├── 2021-04-30-diary.md
+|   └── 2021-05-06-diary.md
+├── _categories
+|   ├── AI developer Diary.html
+|   └── index.html
+├── AI
+|   └── index.html      # AI 카테고리 페이지
+├── Project
+|   └── index.html      # Project 카테고리 페이지
+├── _config.yml
+├── Gemfile
+└── index.html</p>
+:ET

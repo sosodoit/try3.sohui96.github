@@ -6,8 +6,8 @@
 </description>
     <link>https://sohui96.github.io//</link>
     <atom:link href="https://sohui96.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 06 May 2021 00:10:14 +0900</pubDate>
-    <lastBuildDate>Thu, 06 May 2021 00:10:14 +0900</lastBuildDate>
+    <pubDate>Fri, 07 May 2021 00:55:28 +0900</pubDate>
+    <lastBuildDate>Fri, 07 May 2021 00:55:28 +0900</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -78,17 +78,53 @@
       </item>
     
       <item>
-        <title>test</title>
-        <description>&lt;p&gt;삐빅. 텍스트 테스트 업로드 테스트.&lt;/p&gt;
+        <title>test2</title>
+        <description>&lt;p&gt;삐빅. 텍스트 테스트 업로드 테스트.
+.
+├──_includes
+|   ├── archive.html
+|   ├── disqus.html
+|   ├── footer.html
+|   ├── google_analytics.html
+|   ├── head.html
+|   ├── header.html
+|   ├── js.html
+|   └── mobile_menu.html
+├── _layouts
+|   ├── category.html
+|   ├── page.html
+|   └── post.html
+├── _pages
+|   ├── category-archive.html
+|   ├── tag-archive.html
+|   └── year-archive.html
+├── _posts
+|   ├── 2021-04-30-diary.md
+|   └── 2021-05-06-diary.md
+├── _categories
+|   ├── AI developer Diary.html
+|   └── index.html
+├── AI
+|   └── index.html      # AI 카테고리 페이지
+├── Project
+|   └── index.html      # Project 카테고리 페이지
+├── _config.yml
+├── Gemfile
+└── index.html&lt;/p&gt;
+
 </description>
         <pubDate>Thu, 29 Apr 2021 00:00:00 +0900</pubDate>
         <link>https://sohui96.github.io//2021-04/TEST</link>
         <guid isPermaLink="true">https://sohui96.github.io//2021-04/TEST</guid>
         
+        <category>테스트</category>
+        
+        <category>write</category>
+        
         
         <category>Certificate</category>
         
-        <category>writing1</category>
+        <category>Project</category>
         
       </item>
     
@@ -198,7 +234,7 @@
         <guid isPermaLink="true">https://sohui96.github.io//2017-11/s2</guid>
         
         
-        <category>writing1</category>
+        <category>Project</category>
         
       </item>
     

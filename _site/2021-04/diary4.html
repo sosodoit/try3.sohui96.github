@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 
 
@@ -25,8 +25,9 @@
 </head>
 
 <body>
+  
   <div class="content">
-
+    
     <header class="header">
 
   <div class="header_content">
@@ -45,15 +46,18 @@
       
       <ul class="nav_list">
         <li class="nav_item">
-          <a href="/aboutme.html">about</a>
+          <a href="/aboutme.html">About me</a><br>
+          <a href="/Project">[Project]</a>
+          <a href="/AI">[AI]</a>
         </li>
       </ul>
+      <br><br>
       
       
       
       <ul class="nav_list">
         <li class="nav_item">
-          <a href="/categories/writing1" id="aa">writing1
+          <a href="/categories/Project" id="aa">Project
             (2)</a>
         </li>
       </ul>
@@ -80,7 +84,6 @@
 </header>
 
 
-
     <nav class="mobile_menu">
 
   <ul class="nav_list">
@@ -94,7 +97,7 @@
     
 
     <li class="nav_item">
-      <a href="/categories/writing1" id="aa">writing1 (2)</a>
+      <a href="/categories/Project" id="aa">Project (2)</a>
     </li>
     
     
@@ -116,24 +119,22 @@
     <main class="main">
 
     <div class="post">
-  <div>
+  <div class="post-info">
+    <span>Written by</span>
     
-    <p class="post_title">인공지능 개발자 과정 학습일지4</p>
+        
     
-  </div>
-  <div class="post_data">
+
     
-    <span class="post_date">Apr 29, 2021</span>
-    
-    
-    <span class="post_categories">
-      &raquo; 
-      <a href="/categories/AI developer Diary">AI developer Diary</a>
-    </span>
+      <br>
+      <span>on&nbsp;</span><time datetime="2021-04-29 00:00:00 +0900">April 29, 2021</time>
     
   </div>
-  <div class="post_content">
-    <p>수요일이 가장 피곤하다는 통계를 어디선가 보았는데 맞는 것 같다. 어제는 집에 도착하고 밥도 대충먹고 바로 잠이 들었다. 기절이라고 보는게 맞는 것 같다. 긴장한 한 주이기도 해서 더 피곤했나보다. 오래 잠을 자서 그런지 오늘은 매우 쌩쌩했다. 아주 초롱초롱한 눈으로 수업에 임했다.</p>
+
+  <h1 class="post-title">인공지능 개발자 과정 학습일지4</h1>
+  <div class="post-line"></div>
+
+  <p>수요일이 가장 피곤하다는 통계를 어디선가 보았는데 맞는 것 같다. 어제는 집에 도착하고 밥도 대충먹고 바로 잠이 들었다. 기절이라고 보는게 맞는 것 같다. 긴장한 한 주이기도 해서 더 피곤했나보다. 오래 잠을 자서 그런지 오늘은 매우 쌩쌩했다. 아주 초롱초롱한 눈으로 수업에 임했다.</p>
 
 <p>오늘도 여전히 R수업을 했다. 오전에는 잠깐 베이직한 네트워크를 설명 하시고 객체지향 프로그래밍에 대해 알아보았다. 그리고 어제에 이어서 행렬, 리스트, 데이터프레임을 학습했다. 오후에는 빅데이터 개념에 대해 살짝 보고 텍스트분석실습을 하려고 했다. 그 과정에서 필요한 라이브러리를 설치하는데 오류가 났다.</p>
 
@@ -141,18 +142,45 @@
 
 <p>이 과정에서도 느낄 수 있는 점이 많았기 때문이다. 또 이 오류를 해결할 때는 재밌었다. <strong>오류 해결이 우리가 가장 먼저 겪을 수 있는 ‘결과’이기 때문인 것 같다.</strong></p>
 
-  </div>
+</div>
 
+
+  <html>
+  <body>
+    <div id='disqus_thread'></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = 'https://sohui96.github.io//2021-04/diary4';
+    this.page.identifier = 'https://sohui96.github.io//2021-04/diary4';
+  };
+  (function () {
+    var d = document,
+      s = d.createElement('script');
+    s.src = 'https://nigella-kim.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href='https://disqus.com/?ref_noscript'>comments powered by Disqus.</a></noscript>
+  </body>
+</html>
+
+
+
+<div class="pagination">
+  
+    <a href="/2021-04/diary5" class="left arrow">&#8592;</a>
   
   
+    <a href="/2021-04/TEST" class="right arrow">&#8594;</a>
   
 
+  <a href="#" class="top">Top</a>
 </div>
 
     </main>
-
+  
   </div>
-
   <footer class="footer">
   <div>
     팔로우:
@@ -233,6 +261,5 @@
         }, false);
     }, false);
 </script>
-  
 </body>
 </html>
