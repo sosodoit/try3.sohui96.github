@@ -46,12 +46,15 @@
       
       <ul class="nav_list">
         <li class="nav_item">
-          <a href="/aboutme.html">About me</a><br>
+          WHO<br>
+          <a href="/aboutme.html">About</a><br>
+          <br>MAIN<br>      
           <a href="/Project">[Project]</a>
-          <a href="/AI">[AI]</a>
+          <a href="/Edu">[Edu]</a>
+          <a href="/language">[language]</a>
         </li>
       </ul>
-      <br><br>
+      <br>WHAT
       
       
       
@@ -89,119 +92,206 @@
   <ul class="nav_list">
     
     <li class="nav_item">
-      <a href="/aboutme.html">about</a>
+          WHO<br>
+          <a href="/aboutme.html">About</a><br>
+          <br>MAIN<br>      
+          <a href="/Project">[Project]</a>
+          <a href="/Edu">[Edu]</a>
+          <a href="/language">[language]</a>
     </li>
-
-    
-    
-    
-
-    <li class="nav_item">
-      <a href="/categories/Project" id="aa">Project (2)</a>
-    </li>
-    
-    
-
-    <li class="nav_item">
-      <a href="/categories/AI developer Diary" id="aa">AI developer Diary (7)</a>
-    </li>
-    
-    
-
-    <li class="nav_item">
-      <a href="/categories/Certificate" id="aa">Certificate (1)</a>
-    </li>
-    
   </ul>
-
+  <br>
+  
+  
+  
+  <ul class="nav_list">
+    <li class="nav_item">
+      <a href="/categories/Project" id="aa">Project
+        (2)</a>
+    </li>
+  </ul>
+  
+  
+  <ul class="nav_list">
+    <li class="nav_item">
+      <a href="/categories/AI developer Diary" id="aa">AI developer Diary
+        (7)</a>
+    </li>
+  </ul>
+  
+  
+  <ul class="nav_list">
+    <li class="nav_item">
+      <a href="/categories/Certificate" id="aa">Certificate
+        (1)</a>
+    </li>
+  </ul>
+  
 </nav>
     
     <main class="main">
 
-    <div class="tags">
-  <div class="tags-header">
-    <h2 class="tags-header-title">Tags</h2>
-    <div class="tags-header-line"></div>
-  </div>
-  <div class="tags-clouds">
-    
-    <a href="#테스트">테스트</a>
-    
-    <a href="#write">write</a>
-    
-  </div>
-  
-  <div class="tags-item" id="테스트">
-    <svg
-      class="tags-item-icon"
-      xmlns="http://www.w3.org/2000/svg"
-      width="20"
-      height="20"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      class="feather feather-tag"
-    >
-      <path
-        d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
-      ></path>
-      <line x1="7" y1="7" x2="7.01" y2="7"></line>
-    </svg>
-    <h2 class="tags-item-label">테스트</h2>
-    
-    <a class="tags-post" href="/2021-04/TEST">
-      <div>
-        <span class="tags-post-title">test2</span>
-        <div class="tags-post-line"></div>
+    <article class="tag">
+    <div>
+        <header class="post-header">
+            <h1 class="page-heading">Tag cloud</h1>
+        </header>
+
+        <div>
+            <!--
+  태그 클라우드
+  https://github.com/jasondavies/d3-cloud
+-->
+<div id="vis"></div>
+<form id="form" style="display:none;">
+    <p style="position: absolute; right: 0; top: 0" id="status"></p>
+
+    <div style="text-align: center">
+      <div id="presets"></div>
+      <div id="custom-area">
+        <p><label for="text">Paste your text below!</label>
+        <p><textarea id="text">
+
+          
+            
+            
+
+            
+              jekyll 
+            
+              jekyll 
+            
+              jekyll 
+            
+              jekyll 
+            
+              jekyll 
+            
+            
+          
+            
+            
+
+            
+              tags 
+            
+              tags 
+            
+              tags 
+            
+              tags 
+            
+              tags 
+            
+            
+          
+            
+            
+
+            
+              test 
+            
+              test 
+            
+              test 
+            
+              test 
+            
+              test 
+            
+            
+          
+        </textarea>
+        <button id="go" type="submit">Go!</button>
       </div>
-      <span class="tags-post-meta">
-        <time datetime="2021-04-29 00:00:00 +0900">
-          2021-04-29
-        </time>
-      </span>
-    </a>
-    
-  </div>
-  
-  <div class="tags-item" id="write">
-    <svg
-      class="tags-item-icon"
-      xmlns="http://www.w3.org/2000/svg"
-      width="20"
-      height="20"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      class="feather feather-tag"
-    >
-      <path
-        d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
-      ></path>
-      <line x1="7" y1="7" x2="7.01" y2="7"></line>
-    </svg>
-    <h2 class="tags-item-label">write</h2>
-    
-    <a class="tags-post" href="/2021-04/TEST">
-      <div>
-        <span class="tags-post-title">test2</span>
-        <div class="tags-post-line"></div>
-      </div>
-      <span class="tags-post-meta">
-        <time datetime="2021-04-29 00:00:00 +0900">
-          2021-04-29
-        </time>
-      </span>
-    </a>
-    
-  </div>
-  
-</div>
+    </div>
+
+    <hr>
+
+    <div style="float: right; text-align: right">
+      <p><label for="max">Number of words:</label> <input type="number" value="250" min="1" id="max">
+      <p><label for="per-line"><input type="checkbox" id="per-line"> One word per line</label>
+      <!--<p><label for="colours">Colours:</label> <a href="#" id="random-palette">get random palette</a>-->
+      <p><label>Download:</label>
+        <button id="download-svg">SVG</button><!-- |
+        <a id="download-png" href="#">PNG</a>-->
+    </div>
+
+    <div style="float: left">
+      <p><label>Spiral:</label>
+        <label for="archimedean"><input type="radio" name="spiral" id="archimedean" value="archimedean" checked="checked"> Archimedean</label>
+        <label for="rectangular"><input type="radio" name="spiral" id="rectangular" value="rectangular"> Rectangular</label>
+      <p><label for="scale">Scale:</label>
+        <label for="scale-log"><input type="radio" name="scale" id="scale-log" value="log" checked="checked"> log n</label>
+        <label for="scale-sqrt"><input type="radio" name="scale" id="scale-sqrt" value="sqrt"> √n</label>
+        <label for="scale-linear"><input type="radio" name="scale" id="scale-linear" value="linear"> n</label>
+      <p><label for="font">Font:</label> <input type="text" id="font" value="Impact">
+    </div>
+
+    <div id="angles">
+      <p><input type="number" id="angle-count" value="5" min="1"> <label for="angle-count">orientations</label>
+        <label for="angle-from">from</label> <input type="number" id="angle-from" value="-60" min="-90" max="90"> °
+        <label for="angle-to">to</label> <input type="number" id="angle-to" value="60" min="-90" max="90"> °
+    </div>
+
+    <hr style="clear: both">
+
+    <p style="float: right"><a href="about/">How the Word Cloud Generator Works</a>.
+    <p style="float: left">Copyright &copy; <a href="http://www.jasondavies.com/">Jason Davies</a> | <a href="../privacy/">Privacy Policy</a>. The generated word clouds may be used for any purpose.
+
+</form>
+
+<script src="https://www.jasondavies.com/d3.min.js"></script>
+<script src="https://www.jasondavies.com/wordcloud/cloud.min.js"></script>
+<script>
+// tag-cloud 크기를 스크린 사이즈에 따라 보정 18.08.11
+function resizeTagCloud(){
+  if(document.body.offsetWidth < 800){
+    document.getElementById("vis").style.zoom = 0.8 * (document.body.offsetWidth/800)
+  }
+}
+window.onload = window.onresize = resizeTagCloud;
+</script>
+        </div>  
+
+        <div>
+            
+                <!-- tag_name 변수 지정: 태그명은 소문자화(slugize) 한다 -->
+                
+                <!-- tag_size 변수 지정-->
+                
+                <!-- font_size 변수 지정: 태그숫자/전체태그숫자 * 100 + 50 -->
+                
+
+                <div class="tagname">
+                    <a href="/tags/archives#jekyll">jekyll</a>
+                </div>
+            
+                <!-- tag_name 변수 지정: 태그명은 소문자화(slugize) 한다 -->
+                
+                <!-- tag_size 변수 지정-->
+                
+                <!-- font_size 변수 지정: 태그숫자/전체태그숫자 * 100 + 50 -->
+                
+
+                <div class="tagname">
+                    <a href="/tags/archives#tags">tags</a>
+                </div>
+            
+                <!-- tag_name 변수 지정: 태그명은 소문자화(slugize) 한다 -->
+                
+                <!-- tag_size 변수 지정-->
+                
+                <!-- font_size 변수 지정: 태그숫자/전체태그숫자 * 100 + 50 -->
+                
+
+                <div class="tagname">
+                    <a href="/tags/archives#test">test</a>
+                </div>
+            
+        </div> 
+    </div>
+</article>
 
     </main>
   

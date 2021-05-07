@@ -6,8 +6,8 @@
 </description>
     <link>https://sohui96.github.io//</link>
     <atom:link href="https://sohui96.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 07 May 2021 00:55:28 +0900</pubDate>
-    <lastBuildDate>Fri, 07 May 2021 00:55:28 +0900</lastBuildDate>
+    <pubDate>Sat, 08 May 2021 00:24:46 +0900</pubDate>
+    <lastBuildDate>Sat, 08 May 2021 00:24:46 +0900</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -80,6 +80,7 @@
       <item>
         <title>test2</title>
         <description>&lt;p&gt;삐빅. 텍스트 테스트 업로드 테스트.
+“jekyll tag 기능 추가”
 .
 ├──_includes
 |   ├── archive.html
@@ -117,9 +118,11 @@
         <link>https://sohui96.github.io//2021-04/TEST</link>
         <guid isPermaLink="true">https://sohui96.github.io//2021-04/TEST</guid>
         
-        <category>테스트</category>
+        <category>jekyll</category>
         
-        <category>write</category>
+        <category>tags</category>
+        
+        <category>test</category>
         
         
         <category>Certificate</category>

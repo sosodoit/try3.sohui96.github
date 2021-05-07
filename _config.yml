@@ -14,8 +14,21 @@ timezone:
 favicon: /assets/img/my.ico
 
 # Social info
-navigation: True
-# Navigation bar link를 보여줄건지 여부
+navigation:
+ - title: About
+   url: /about
+ - title: Category
+   url: /category
+ - title: Tags
+   url: /tags
+ - title: Archives
+   url: /archives
+
+# pages 추가 여기 추가
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 google_analytics: #UA—XXXXXXXX-X
 
@@ -28,7 +41,7 @@ comments:
 # Site Author
 author:
 user:
-  name: Nigella Kim
+  name: Nigella
   pic: /assets/img/my.png
   picAlt: "Hello"
   job: 개발자가 되기 위해 공부하고 있습니다. <br> 

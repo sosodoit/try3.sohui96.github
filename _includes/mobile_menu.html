@@ -3,17 +3,23 @@
   <ul class="nav_list">
     {% if site.user.aboutme %}
     <li class="nav_item">
-      <a href="{{ site.baseurl }}/aboutme.html">about</a>
+          WHO<br>
+          <a href="{{ site.baseurl }}/aboutme.html">About</a><br>
+          <br>MAIN<br>      
+          <a href="{{ '/Project' | prepend: site.baseurl }}">[Project]</a>
+          <a href="{{ '/Edu' | prepend: site.baseurl }}">[Edu]</a>
+          <a href="{{ '/language' | prepend: site.baseurl }}">[language]</a>
     </li>
-
-    {% endif %}
-    {% for category in site.categories %}
-    {% capture cat_name %}{{ category | first }}{% endcapture %}
-
-    <li class="nav_item">
-      <a href="{{ site.baseurl }}/categories/{{ cat_name }}" id="aa">{{ cat_name }} ({{ category | last | size }})</a>
-    </li>
-    {% endfor %}
   </ul>
-
+  <br>
+  {% endif %}
+  {% for category in site.categories %}
+  {% capture cat_name %}{{ category | first }}{% endcapture %}
+  <ul class="nav_list">
+    <li class="nav_item">
+      <a href="{{ site.baseurl }}/categories/{{ cat_name }}" id="aa">{{ cat_name }}
+        ({{ category | last | size }})</a>
+    </li>
+  </ul>
+  {% endfor %}
 </nav>

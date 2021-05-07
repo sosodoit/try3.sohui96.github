@@ -1,9 +1,9 @@
 ---
-title: AI
+title: Edu
 layout: page
 pagination:
     enabled: true
-    category: AI developer Diary
+    category: AI developer Diary, Android, Certificate
     per_page: 3
 ---
 
@@ -31,9 +31,9 @@ pagination:
                 <em>{{ page }}</em>
 
             {% elsif page == 1 %} 
-                <a href="{{ '/AI/index.html' | prepend: site.baseurl }}">{{ page }}</a>
+                <a href="{{ '/Edu/index.html' | prepend: site.baseurl }}">{{ page }}</a>
             {% else %}
-                <a href="{{ site.paginate_path | prepend: '/AI/' | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>     
+                <a href="{{ site.paginate_path | prepend: '/Edu/' | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>     
                 <!-- 페이지 번호를 나타내기 위한 코드. -->
             {% endif %}
         {% endfor %}

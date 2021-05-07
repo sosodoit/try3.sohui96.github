@@ -4,7 +4,7 @@
 
 
 <head>
-  <title>page | Hello, Here is work diary.</title>
+  <title>Tags archives | Hello, Here is work diary.</title>
   
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="/assets/css/main.css" media="all">
-  <link rel="canonical" href="https://sohui96.github.io//">
+  <link rel="canonical" href="https://sohui96.github.io//tags/archives">
   <link rel="alternate" type="application/rss+xml" title="Hello, Here is work diary."
     href="/feed.xml" />
 
@@ -131,184 +131,167 @@
     
     <main class="main">
 
-    <!-- each category page -->
+    <article class="tag">
+    <div>
+        <header class="post-header">
+            <h1 class="page-heading">Tag cloud</h1>
+        </header>
 
-<div class="archive">
-  
-  
-  <p class="archive_year">2021</p>
-  
+        <div>
+            <!--
+  태그 클라우드
+  https://github.com/jasondavies/d3-cloud
+-->
+<div id="vis"></div>
+<form id="form" style="display:none;">
+    <p style="position: absolute; right: 0; top: 0" id="status"></p>
 
-  <ul>
-    <li>
-      <time class='archive_date' datetime='2021-05-04T00:00:00+09:00'>
-        May 04
-      </time>
-      <div class='archive_title'>
-        <a href='/2021-05/diary7'>
-          인공지능 개발자 과정 학습일지7
-        </a>
+    <div style="text-align: center">
+      <div id="presets"></div>
+      <div id="custom-area">
+        <p><label for="text">Paste your text below!</label>
+        <p><textarea id="text">
+
+          
+            
+            
+
+            
+              jekyll 
+            
+              jekyll 
+            
+              jekyll 
+            
+              jekyll 
+            
+              jekyll 
+            
+            
+          
+            
+            
+
+            
+              tags 
+            
+              tags 
+            
+              tags 
+            
+              tags 
+            
+              tags 
+            
+            
+          
+            
+            
+
+            
+              test 
+            
+              test 
+            
+              test 
+            
+              test 
+            
+              test 
+            
+            
+          
+        </textarea>
+        <button id="go" type="submit">Go!</button>
       </div>
-    </li>
-  </ul>
-  
-  
-  
-  
-  
-  
+    </div>
 
-  <ul>
-    <li>
-      <time class='archive_date' datetime='2021-05-03T00:00:00+09:00'>
-        May 03
-      </time>
-      <div class='archive_title'>
-        <a href='/2021-05/diary6'>
-          인공지능 개발자 과정 학습일지6
-        </a>
-      </div>
-    </li>
-  </ul>
-  
-  
-  
-  
-  
-  
+    <hr>
 
-  <ul>
-    <li>
-      <time class='archive_date' datetime='2021-04-30T00:00:00+09:00'>
-        Apr 30
-      </time>
-      <div class='archive_title'>
-        <a href='/2021-04/diary5'>
-          인공지능 개발자 과정 학습일지5
-        </a>
-      </div>
-    </li>
-  </ul>
-  
-  
-  
-  
-  
-  
+    <div style="float: right; text-align: right">
+      <p><label for="max">Number of words:</label> <input type="number" value="250" min="1" id="max">
+      <p><label for="per-line"><input type="checkbox" id="per-line"> One word per line</label>
+      <!--<p><label for="colours">Colours:</label> <a href="#" id="random-palette">get random palette</a>-->
+      <p><label>Download:</label>
+        <button id="download-svg">SVG</button><!-- |
+        <a id="download-png" href="#">PNG</a>-->
+    </div>
 
-  <ul>
-    <li>
-      <time class='archive_date' datetime='2021-04-29T00:00:00+09:00'>
-        Apr 29
-      </time>
-      <div class='archive_title'>
-        <a href='/2021-04/diary4'>
-          인공지능 개발자 과정 학습일지4
-        </a>
-      </div>
-    </li>
-  </ul>
-  
-  
-  
-  
-  
-  
+    <div style="float: left">
+      <p><label>Spiral:</label>
+        <label for="archimedean"><input type="radio" name="spiral" id="archimedean" value="archimedean" checked="checked"> Archimedean</label>
+        <label for="rectangular"><input type="radio" name="spiral" id="rectangular" value="rectangular"> Rectangular</label>
+      <p><label for="scale">Scale:</label>
+        <label for="scale-log"><input type="radio" name="scale" id="scale-log" value="log" checked="checked"> log n</label>
+        <label for="scale-sqrt"><input type="radio" name="scale" id="scale-sqrt" value="sqrt"> √n</label>
+        <label for="scale-linear"><input type="radio" name="scale" id="scale-linear" value="linear"> n</label>
+      <p><label for="font">Font:</label> <input type="text" id="font" value="Impact">
+    </div>
 
-  <ul>
-    <li>
-      <time class='archive_date' datetime='2021-04-29T00:00:00+09:00'>
-        Apr 29
-      </time>
-      <div class='archive_title'>
-        <a href='/2021-04/TEST'>
-          test2
-        </a>
-      </div>
-    </li>
-  </ul>
-  
-  
-  
-  
-  
-  
+    <div id="angles">
+      <p><input type="number" id="angle-count" value="5" min="1"> <label for="angle-count">orientations</label>
+        <label for="angle-from">from</label> <input type="number" id="angle-from" value="-60" min="-90" max="90"> °
+        <label for="angle-to">to</label> <input type="number" id="angle-to" value="60" min="-90" max="90"> °
+    </div>
 
-  <ul>
-    <li>
-      <time class='archive_date' datetime='2021-04-28T00:00:00+09:00'>
-        Apr 28
-      </time>
-      <div class='archive_title'>
-        <a href='/2021-04/diary3'>
-          인공지능 개발자 과정 학습일지3
-        </a>
-      </div>
-    </li>
-  </ul>
-  
-  
-  
-  
-  
-  
+    <hr style="clear: both">
 
-  <ul>
-    <li>
-      <time class='archive_date' datetime='2021-04-27T00:00:00+09:00'>
-        Apr 27
-      </time>
-      <div class='archive_title'>
-        <a href='/2021-04/diary2'>
-          인공지능 개발자 과정 학습일지2
-        </a>
-      </div>
-    </li>
-  </ul>
-  
-  
-  
-  
-  
-  
+    <p style="float: right"><a href="about/">How the Word Cloud Generator Works</a>.
+    <p style="float: left">Copyright &copy; <a href="http://www.jasondavies.com/">Jason Davies</a> | <a href="../privacy/">Privacy Policy</a>. The generated word clouds may be used for any purpose.
 
-  <ul>
-    <li>
-      <time class='archive_date' datetime='2021-04-26T00:00:00+09:00'>
-        Apr 26
-      </time>
-      <div class='archive_title'>
-        <a href='/2021-04/diary1'>
-          인공지능 개발자 과정 학습일지1
-        </a>
-      </div>
-    </li>
-  </ul>
-  
-  
-  
-  
-  
-  <p class="archive_year">2017</p>
-  
-  
+</form>
 
-  <ul>
-    <li>
-      <time class='archive_date' datetime='2017-11-01T00:00:00+09:00'>
-        Nov 01
-      </time>
-      <div class='archive_title'>
-        <a href='/2017-11/s2'>
-          Sample Post
-        </a>
-      </div>
-    </li>
-  </ul>
-  
-</div>
+<script src="https://www.jasondavies.com/d3.min.js"></script>
+<script src="https://www.jasondavies.com/wordcloud/cloud.min.js"></script>
+<script>
+// tag-cloud 크기를 스크린 사이즈에 따라 보정 18.08.11
+function resizeTagCloud(){
+  if(document.body.offsetWidth < 800){
+    document.getElementById("vis").style.zoom = 0.8 * (document.body.offsetWidth/800)
+  }
+}
+window.onload = window.onresize = resizeTagCloud;
+</script>
+        </div>  
 
+        <div>
+            
+                <!-- tag_name 변수 지정: 태그명은 소문자화(slugize) 한다 -->
+                
+                <!-- tag_size 변수 지정-->
+                
+                <!-- font_size 변수 지정: 태그숫자/전체태그숫자 * 100 + 50 -->
+                
 
+                <div class="tagname">
+                    <a href="/tags/archives#jekyll">jekyll</a>
+                </div>
+            
+                <!-- tag_name 변수 지정: 태그명은 소문자화(slugize) 한다 -->
+                
+                <!-- tag_size 변수 지정-->
+                
+                <!-- font_size 변수 지정: 태그숫자/전체태그숫자 * 100 + 50 -->
+                
+
+                <div class="tagname">
+                    <a href="/tags/archives#tags">tags</a>
+                </div>
+            
+                <!-- tag_name 변수 지정: 태그명은 소문자화(slugize) 한다 -->
+                
+                <!-- tag_size 변수 지정-->
+                
+                <!-- font_size 변수 지정: 태그숫자/전체태그숫자 * 100 + 50 -->
+                
+
+                <div class="tagname">
+                    <a href="/tags/archives#test">test</a>
+                </div>
+            
+        </div> 
+    </div>
+</article>
 
     </main>
   
