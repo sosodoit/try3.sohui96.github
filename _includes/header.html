@@ -11,8 +11,16 @@
     <span class="header_name">{{ site.user.name }}</span>
     <span class="header_job">{{ site.user.job }}</span>
     <span class="header_mes">{{ site.user.message }}</span>
-
+    <span class="header_memo">{{ site.user.memo}}</span>
+<!--
     <nav class="nav">
+        <ul>
+          <li><a href="{{ site.baseurl }}/aboutme.html">About</a></li>
+          <li><a href="{{ '/' }}">Archive</a></li>          
+          <li><a href="#">Category</a></li>
+          <li><a href="#">Post</a></li>
+        </ul>
+-->
       {% if site.user.aboutme %}
       <ul class="nav_list">
         <li class="nav_item">
@@ -24,6 +32,7 @@
           <a href="{{ '/language' | prepend: site.baseurl }}">[language]</a>
         </li>
       </ul>
+
       <br>WHAT
       {% endif %}
       {% for category in site.categories %}
@@ -36,9 +45,9 @@
       </ul>
       {% endfor %}
       <br>
-      <a href="{{ site.baseurl }}/tags">Tag cloud</a><br>    
+
+      <a href="{{ site.baseurl }}/tags">Tag cloud</a><br>
     </nav>
   </div>
-
 </header>
 

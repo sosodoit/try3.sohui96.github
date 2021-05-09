@@ -4,20 +4,24 @@
 {% include head.html %}
 
 <body>
+  <!-- navigator 영역 -->
+  <div class="nav">
+    {% include navigation.html %}
+  </div>
   
   <div class="content">
-    
     {% include header.html %}
     {% include mobile_menu.html %}
     
+    <!-- main content 영역 -->
     <main class="main">
-
     {{ content }}
-
     </main>
-  
   </div>
+
+  <!-- footer 영역 -->
   {% include footer.html %}
   {% include js.html %}
+
 </body>
 </html>

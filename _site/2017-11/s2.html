@@ -25,9 +25,34 @@
 </head>
 
 <body>
+  <!-- navigator 영역 -->
+  <div class="nav">
+    <!-- _includes/nav.html 1-->
+<nav class="nav">
+  <ul>
+    <li><a href="/aboutme.html">About</a></li>
+    <li><a href="/">Archive</a></li>          
+    <li><a href="#">Category</a></li>
+    <li><a href="#">Post</a></li>
+  </ul>
+
+<!-- _includes/nav.html 2-->
+<!--
+<span class="sr-only">Navigation:</span>
+<ul>
+  
+
+  
+
+  
+  
+  
+  
+</ul>
+-->
+  </div>
   
   <div class="content">
-    
     <header class="header">
 
   <div class="header_content">
@@ -41,8 +66,16 @@
     <span class="header_name">Nigella</span>
     <span class="header_job">개발자가 되기 위해 공부하고 있습니다. <br></span>
     <span class="header_mes"></span>
-
+    <span class="header_memo"></span>
+<!--
     <nav class="nav">
+        <ul>
+          <li><a href="/aboutme.html">About</a></li>
+          <li><a href="/">Archive</a></li>          
+          <li><a href="#">Category</a></li>
+          <li><a href="#">Post</a></li>
+        </ul>
+-->
       
       <ul class="nav_list">
         <li class="nav_item">
@@ -54,6 +87,7 @@
           <a href="/language">[language]</a>
         </li>
       </ul>
+
       <br>WHAT
       
       
@@ -98,10 +132,10 @@
       </ul>
       
       <br>
-      <a href="/tags">Tag cloud</a><br>    
+
+      <a href="/tags">Tag cloud</a><br>
     </nav>
   </div>
-
 </header>
 
 
@@ -163,8 +197,8 @@
   
 </nav>
     
+    <!-- main content 영역 -->
     <main class="main">
-
     <div class="post">
   <div class="post-info">
     <span>Written by</span>
@@ -228,6 +262,27 @@
 </div>
 
 
+  <html>
+  <body>
+    <div id='disqus_thread'></div>
+<script>
+  var disqus_config = function () {
+    this.page.url = 'https://sohui96.github.io//2017-11/s2';
+    this.page.identifier = 'https://sohui96.github.io//2017-11/s2';
+  };
+  (function () {
+    var d = document,
+      s = d.createElement('script');
+    s.src = 'https://nigella-kim.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href='https://disqus.com/?ref_noscript'>comments powered by Disqus.</a></noscript>
+  </body>
+</html>
+
+
 
 <div class="pagination">
   
@@ -238,10 +293,10 @@
   <a href="#" class="top">Top</a>
 </div>
 
-
     </main>
-  
   </div>
+
+  <!-- footer 영역 -->
   <footer class="footer">
   <div>
     팔로우:
@@ -321,5 +376,6 @@
         }, false);
     }, false);
 </script>
+
 </body>
 </html>
