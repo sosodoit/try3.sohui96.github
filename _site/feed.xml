@@ -1,16 +1,16 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://sohui96.github.io</id>
+  <id>https://sohui96.github.io/</id>
   <title>Hello, Here is work diary.</title>
-  <subtitle>My name is Sohee. I just write sohui because the pronunciation is fun. And my nickname is Nigella.</subtitle>
-  <updated>2021-05-11T01:18:06+09:00</updated>
+  <subtitle></subtitle>
+  <updated>2021-05-11T02:02:36+09:00</updated>
   <author>
     <name>KIMSOHEE</name>
-    <uri>https://sohui96.github.io</uri>
+    <uri>https://sohui96.github.io/</uri>
   </author>
   <link href="/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://sohui96.github.io" rel="alternate" type="text/html" />
+  <link href="https://sohui96.github.io/" rel="alternate" type="text/html" />
   <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
   <rights> © 2021 KIMSOHEE </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -20,13 +20,13 @@
   
   <entry>
     <title>인공지능 개발자 과정 학습일지9</title>
-    <link href="https://sohui96.github.io/posts/diary9/" rel="alternate" type="text/html" title="인공지능 개발자 과정 학습일지9" />
+    <link href="https://sohui96.github.io//posts/diary9/" rel="alternate" type="text/html" title="인공지능 개발자 과정 학습일지9" />
     <published>2021-05-07T00:00:00+09:00</published>
   
     <updated>2021-05-07T00:00:00+09:00</updated>
   
-    <id>https://sohui96.github.io/posts/diary9/</id>
-    <content src="https://sohui96.github.io/posts/diary9/" />
+    <id>https://sohui96.github.io//posts/diary9/</id>
+    <content src="https://sohui96.github.io//posts/diary9/" />
     <author>
       <name>KIMSOHEE</name>
     </author>
@@ -55,13 +55,13 @@
   
   <entry>
     <title>인공지능 개발자 과정 학습일지8</title>
-    <link href="https://sohui96.github.io/posts/diary8/" rel="alternate" type="text/html" title="인공지능 개발자 과정 학습일지8" />
+    <link href="https://sohui96.github.io//posts/diary8/" rel="alternate" type="text/html" title="인공지능 개발자 과정 학습일지8" />
     <published>2021-05-06T00:00:00+09:00</published>
   
     <updated>2021-05-06T00:00:00+09:00</updated>
   
-    <id>https://sohui96.github.io/posts/diary8/</id>
-    <content src="https://sohui96.github.io/posts/diary8/" />
+    <id>https://sohui96.github.io//posts/diary8/</id>
+    <content src="https://sohui96.github.io//posts/diary8/" />
     <author>
       <name>KIMSOHEE</name>
     </author>
@@ -90,13 +90,13 @@
   
   <entry>
     <title>인공지능 개발자 과정 학습일지7</title>
-    <link href="https://sohui96.github.io/posts/diary7/" rel="alternate" type="text/html" title="인공지능 개발자 과정 학습일지7" />
+    <link href="https://sohui96.github.io//posts/diary7/" rel="alternate" type="text/html" title="인공지능 개발자 과정 학습일지7" />
     <published>2021-05-04T00:00:00+09:00</published>
   
     <updated>2021-05-04T00:00:00+09:00</updated>
   
-    <id>https://sohui96.github.io/posts/diary7/</id>
-    <content src="https://sohui96.github.io/posts/diary7/" />
+    <id>https://sohui96.github.io//posts/diary7/</id>
+    <content src="https://sohui96.github.io//posts/diary7/" />
     <author>
       <name>KIMSOHEE</name>
     </author>
@@ -127,13 +127,13 @@
   
   <entry>
     <title>인공지능 개발자 과정 학습일지6</title>
-    <link href="https://sohui96.github.io/posts/diary6/" rel="alternate" type="text/html" title="인공지능 개발자 과정 학습일지6" />
+    <link href="https://sohui96.github.io//posts/diary6/" rel="alternate" type="text/html" title="인공지능 개발자 과정 학습일지6" />
     <published>2021-05-03T00:00:00+09:00</published>
   
     <updated>2021-05-03T00:00:00+09:00</updated>
   
-    <id>https://sohui96.github.io/posts/diary6/</id>
-    <content src="https://sohui96.github.io/posts/diary6/" />
+    <id>https://sohui96.github.io//posts/diary6/</id>
+    <content src="https://sohui96.github.io//posts/diary6/" />
     <author>
       <name>KIMSOHEE</name>
     </author>
@@ -163,13 +163,13 @@
   
   <entry>
     <title>인공지능 개발자 과정 학습일지5</title>
-    <link href="https://sohui96.github.io/posts/diary5/" rel="alternate" type="text/html" title="인공지능 개발자 과정 학습일지5" />
+    <link href="https://sohui96.github.io//posts/diary5/" rel="alternate" type="text/html" title="인공지능 개발자 과정 학습일지5" />
     <published>2021-04-30T00:00:00+09:00</published>
   
     <updated>2021-04-30T00:00:00+09:00</updated>
   
-    <id>https://sohui96.github.io/posts/diary5/</id>
-    <content src="https://sohui96.github.io/posts/diary5/" />
+    <id>https://sohui96.github.io//posts/diary5/</id>
+    <content src="https://sohui96.github.io//posts/diary5/" />
     <author>
       <name>KIMSOHEE</name>
     </author>
