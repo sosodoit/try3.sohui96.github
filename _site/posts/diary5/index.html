@@ -2,7 +2,9 @@
 
 
 
-<html lang="en" 
+<html lang="en-US" 
+  
+    mode="dual"
   
 >
 
@@ -35,9 +37,9 @@
 <meta property="twitter:title" content="인공지능 개발자 과정 학습일지5" />
 <meta name="twitter:site" content="@None" />
 <meta name="twitter:creator" content="@KIMSOHEE" />
-<meta name="google-site-verification" content="google_meta_tag_verification" />
+<meta name="google-site-verification" content="google6d839ff7df7111fe.html" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","headline":"인공지능 개발자 과정 학습일지5","dateModified":"2021-04-30T00:00:00+09:00","datePublished":"2021-04-30T00:00:00+09:00","url":"https://sohui96.github.io//posts/diary5/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sohui96.github.io//posts/diary5/"},"author":{"@type":"Person","name":"KIMSOHEE"},"description":"오전에는 텍스트마이닝 실습을 하였다. 그 전에 품사태깅 의 원리도 알아보았다. 실습환경은 R로 KoNLP라이브러리 를 사용해서 했고 정규표현식 을 활용하여 몇 가지 R문법 과 함께 코드를 짜보았다. 과제로 제주도 추천 여행 코스 분석이 주어졌는데 제주도에서 추천되는 여행코스로 많이 소개되는 지명을 워드클라우드로 시각화를 해보았다. 여러 방법이 있겠지만 필요 없는 단어들을 지우다가 문득 %in% 으로 지명을 뽑아내는 것이 생각나서 지우는 과정없이 %in%을 사용했다. 그 전에 필요 없는 단어를 지우고 하는게 더 좋았을까?​","@context":"https://schema.org"}</script>
+{"headline":"인공지능 개발자 과정 학습일지5","dateModified":"2021-04-30T00:00:00+09:00","datePublished":"2021-04-30T00:00:00+09:00","url":"https://sohui96.github.io//posts/diary5/","mainEntityOfPage":{"@type":"WebPage","@id":"https://sohui96.github.io//posts/diary5/"},"@type":"BlogPosting","author":{"@type":"Person","name":"KIMSOHEE"},"description":"오전에는 텍스트마이닝 실습을 하였다. 그 전에 품사태깅 의 원리도 알아보았다. 실습환경은 R로 KoNLP라이브러리 를 사용해서 했고 정규표현식 을 활용하여 몇 가지 R문법 과 함께 코드를 짜보았다. 과제로 제주도 추천 여행 코스 분석이 주어졌는데 제주도에서 추천되는 여행코스로 많이 소개되는 지명을 워드클라우드로 시각화를 해보았다. 여러 방법이 있겠지만 필요 없는 단어들을 지우다가 문득 %in% 으로 지명을 뽑아내는 것이 생각나서 지우는 과정없이 %in%을 사용했다. 그 전에 필요 없는 단어를 지우고 하는게 더 좋았을까?​","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -175,7 +177,7 @@
         
         
         
-        <img src="/assets/img/my.png" alt="avatar" onerror="this.style.display='none'">
+        <img src="/assets/img/favicons/my.png" alt="avatar" onerror="this.style.display='none'">
       </a>
     </div>
 
@@ -235,7 +237,7 @@
 
       
       <a href="https://github.com/sohui96" aria-label="github"
-        class="order-3"
+        
         target="_blank" rel="noopener">
         <i class="fab fa-github-alt"></i>
       </a>
@@ -247,7 +249,7 @@
       
       <a href="
           javascript:location.href = 'mailto:' + ['helloahri21','naver.com'].join('@')" aria-label="email"
-        class="order-4"
+        
         >
         <i class="fas fa-envelope"></i>
       </a>
@@ -258,7 +260,7 @@
 
       
       <a href="/feed.xml" aria-label="rss"
-        class="order-5"
+        
         >
         <i class="fas fa-rss"></i>
       </a>
@@ -266,164 +268,6 @@
 
     
 
-    
-      
-        <span class="icon-border order-2"></span>
-      
-
-      <span id="mode-toggle-wrapper" class="order-1">
-        <!--
-  Switch the mode between dark and light.
-
-  v2.1
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2020 Cotes Chung
-  MIT License
--->
-
-<i class="mode-toggle fas fa-adjust"></i>
-
-<script type="text/javascript">
-
-  class ModeToggle {
-    static get MODE_KEY() { return "mode"; }
-    static get DARK_MODE() { return "dark"; }
-    static get LIGHT_MODE() { return "light"; }
-
-    constructor() {
-      if (this.hasMode) {
-        if (this.isDarkMode) {
-          if (!this.isSysDarkPrefer) {
-            this.setDark();
-          }
-        } else {
-          if (this.isSysDarkPrefer) {
-            this.setLight();
-          }
-        }
-      }
-
-      var self = this;
-
-      /* always follow the system prefers */
-      this.sysDarkPrefers.addListener(function() {
-        if (self.hasMode) {
-          if (self.isDarkMode) {
-            if (!self.isSysDarkPrefer) {
-              self.setDark();
-            }
-
-          } else {
-            if (self.isSysDarkPrefer) {
-              self.setLight();
-            }
-          }
-
-          self.clearMode();
-        }
-
-        self.updateMermaid();
-      });
-
-    } /* constructor() */
-
-
-    setDark() {
-      $('html').attr(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE);
-      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE);
-    }
-
-    setLight() {
-      $('html').attr(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
-      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
-    }
-
-    clearMode() {
-      $('html').removeAttr(ModeToggle.MODE_KEY);
-      sessionStorage.removeItem(ModeToggle.MODE_KEY);
-    }
-
-    get sysDarkPrefers() { return window.matchMedia("(prefers-color-scheme: dark)"); }
-
-    get isSysDarkPrefer() { return this.sysDarkPrefers.matches; }
-
-    get isDarkMode() { return this.mode == ModeToggle.DARK_MODE; }
-
-    get isLightMode() { return this.mode == ModeToggle.LIGHT_MODE; }
-
-    get hasMode() { return this.mode != null; }
-
-    get mode() { return sessionStorage.getItem(ModeToggle.MODE_KEY); }
-
-    /* get the current mode on screen */
-    get modeStatus() {
-      if (this.isDarkMode
-        || (!this.hasMode && this.isSysDarkPrefer) ) {
-        return ModeToggle.DARK_MODE;
-      } else {
-        return ModeToggle.LIGHT_MODE;
-      }
-    }
-
-    updateMermaid() {
-      if (typeof mermaid !== "undefined") {
-        let expectedTheme = (this.modeStatus === ModeToggle.DARK_MODE? "dark" : "default");
-        let config = { theme: expectedTheme };
-
-        /* re-render the SVG › <https://github.com/mermaid-js/mermaid/issues/311#issuecomment-332557344> */
-        $(".mermaid").each(function() {
-          let svgCode = $(this).prev().children().html();
-          $(this).removeAttr("data-processed");
-          $(this).html(svgCode);
-        });
-
-        mermaid.initialize(config);
-        mermaid.init(undefined, ".mermaid");
-      }
-    }
-
-    flipMode() {
-      if (this.hasMode) {
-        if (this.isSysDarkPrefer) {
-          if (this.isLightMode) {
-            this.clearMode();
-          } else {
-            this.setLight();
-          }
-
-        } else {
-          if (this.isDarkMode) {
-            this.clearMode();
-          } else {
-            this.setDark();
-          }
-        }
-
-      } else {
-        if (this.isSysDarkPrefer) {
-          this.setLight();
-        } else {
-          this.setDark();
-        }
-      }
-
-      this.updateMermaid();
-
-    } /* flipMode() */
-
-  } /* ModeToggle */
-
-  let toggle = new ModeToggle();
-
-  $(".mode-toggle").click(function() {
-
-    toggle.flipMode();
-
-  });
-
-</script>
-
-      </span>
     
 
   </div> <!-- .sidebar-bottom -->

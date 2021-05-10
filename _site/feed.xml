@@ -1,16 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://sohui96.github.io/</id>
+  <id>https://sohui96.github.io//</id>
   <title>Hello, Here is work diary.</title>
-  <subtitle></subtitle>
-  <updated>2021-05-11T02:02:36+09:00</updated>
+  <subtitle>My name is Sohee. I just write sohui because the pronunciation is fun. And my nickname is Nigella.</subtitle>
+  <updated>2021-05-11T02:43:49+09:00</updated>
   <author>
     <name>KIMSOHEE</name>
-    <uri>https://sohui96.github.io/</uri>
+    <uri>https://sohui96.github.io//</uri>
   </author>
-  <link href="/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://sohui96.github.io/" rel="alternate" type="text/html" />
+  <link rel="self" type="application/atom+xml" href="https://sohui96.github.io//feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en-US"
+    href="https://sohui96.github.io//"/>
   <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
   <rights> © 2021 KIMSOHEE </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>

@@ -2,7 +2,9 @@
 
 
 
-<html lang="en" 
+<html lang="en-US" 
+  
+    mode="dual"
   
 >
 
@@ -24,17 +26,20 @@
 <meta property="og:title" content="Hello, Here is work diary." />
 <meta name="author" content="KIMSOHEE" />
 <meta property="og:locale" content="en_US" />
+<meta name="description" content="My name is Sohee. I just write sohui because the pronunciation is fun. And my nickname is Nigella." />
+<meta property="og:description" content="My name is Sohee. I just write sohui because the pronunciation is fun. And my nickname is Nigella." />
 <link rel="canonical" href="https://sohui96.github.io//page2/" />
 <meta property="og:url" content="https://sohui96.github.io//page2/" />
 <meta property="og:site_name" content="Hello, Here is work diary." />
 <link rel="prev" href="https://sohui96.github.io//" />
+<link rel="next" href="https://sohui96.github.io//page3" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hello, Here is work diary." />
 <meta name="twitter:site" content="@None" />
 <meta name="twitter:creator" content="@KIMSOHEE" />
-<meta name="google-site-verification" content="google_meta_tag_verification" />
+<meta name="google-site-verification" content="google6d839ff7df7111fe.html" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"Hello, Here is work diary.","url":"https://sohui96.github.io//page2/","author":{"@type":"Person","name":"KIMSOHEE"},"@context":"https://schema.org"}</script>
+{"headline":"Hello, Here is work diary.","url":"https://sohui96.github.io//page2/","@type":"WebPage","author":{"@type":"Person","name":"KIMSOHEE"},"description":"My name is Sohee. I just write sohui because the pronunciation is fun. And my nickname is Nigella.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -167,7 +172,7 @@
         
         
         
-        <img src="/assets/img/my.png" alt="avatar" onerror="this.style.display='none'">
+        <img src="/assets/img/favicons/my.png" alt="avatar" onerror="this.style.display='none'">
       </a>
     </div>
 
@@ -227,7 +232,7 @@
 
       
       <a href="https://github.com/sohui96" aria-label="github"
-        class="order-3"
+        
         target="_blank" rel="noopener">
         <i class="fab fa-github-alt"></i>
       </a>
@@ -239,7 +244,7 @@
       
       <a href="
           javascript:location.href = 'mailto:' + ['helloahri21','naver.com'].join('@')" aria-label="email"
-        class="order-4"
+        
         >
         <i class="fas fa-envelope"></i>
       </a>
@@ -250,7 +255,7 @@
 
       
       <a href="/feed.xml" aria-label="rss"
-        class="order-5"
+        
         >
         <i class="fas fa-rss"></i>
       </a>
@@ -258,164 +263,6 @@
 
     
 
-    
-      
-        <span class="icon-border order-2"></span>
-      
-
-      <span id="mode-toggle-wrapper" class="order-1">
-        <!--
-  Switch the mode between dark and light.
-
-  v2.1
-  https://github.com/cotes2020/jekyll-theme-chirpy
-  © 2020 Cotes Chung
-  MIT License
--->
-
-<i class="mode-toggle fas fa-adjust"></i>
-
-<script type="text/javascript">
-
-  class ModeToggle {
-    static get MODE_KEY() { return "mode"; }
-    static get DARK_MODE() { return "dark"; }
-    static get LIGHT_MODE() { return "light"; }
-
-    constructor() {
-      if (this.hasMode) {
-        if (this.isDarkMode) {
-          if (!this.isSysDarkPrefer) {
-            this.setDark();
-          }
-        } else {
-          if (this.isSysDarkPrefer) {
-            this.setLight();
-          }
-        }
-      }
-
-      var self = this;
-
-      /* always follow the system prefers */
-      this.sysDarkPrefers.addListener(function() {
-        if (self.hasMode) {
-          if (self.isDarkMode) {
-            if (!self.isSysDarkPrefer) {
-              self.setDark();
-            }
-
-          } else {
-            if (self.isSysDarkPrefer) {
-              self.setLight();
-            }
-          }
-
-          self.clearMode();
-        }
-
-        self.updateMermaid();
-      });
-
-    } /* constructor() */
-
-
-    setDark() {
-      $('html').attr(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE);
-      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE);
-    }
-
-    setLight() {
-      $('html').attr(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
-      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
-    }
-
-    clearMode() {
-      $('html').removeAttr(ModeToggle.MODE_KEY);
-      sessionStorage.removeItem(ModeToggle.MODE_KEY);
-    }
-
-    get sysDarkPrefers() { return window.matchMedia("(prefers-color-scheme: dark)"); }
-
-    get isSysDarkPrefer() { return this.sysDarkPrefers.matches; }
-
-    get isDarkMode() { return this.mode == ModeToggle.DARK_MODE; }
-
-    get isLightMode() { return this.mode == ModeToggle.LIGHT_MODE; }
-
-    get hasMode() { return this.mode != null; }
-
-    get mode() { return sessionStorage.getItem(ModeToggle.MODE_KEY); }
-
-    /* get the current mode on screen */
-    get modeStatus() {
-      if (this.isDarkMode
-        || (!this.hasMode && this.isSysDarkPrefer) ) {
-        return ModeToggle.DARK_MODE;
-      } else {
-        return ModeToggle.LIGHT_MODE;
-      }
-    }
-
-    updateMermaid() {
-      if (typeof mermaid !== "undefined") {
-        let expectedTheme = (this.modeStatus === ModeToggle.DARK_MODE? "dark" : "default");
-        let config = { theme: expectedTheme };
-
-        /* re-render the SVG › <https://github.com/mermaid-js/mermaid/issues/311#issuecomment-332557344> */
-        $(".mermaid").each(function() {
-          let svgCode = $(this).prev().children().html();
-          $(this).removeAttr("data-processed");
-          $(this).html(svgCode);
-        });
-
-        mermaid.initialize(config);
-        mermaid.init(undefined, ".mermaid");
-      }
-    }
-
-    flipMode() {
-      if (this.hasMode) {
-        if (this.isSysDarkPrefer) {
-          if (this.isLightMode) {
-            this.clearMode();
-          } else {
-            this.setLight();
-          }
-
-        } else {
-          if (this.isDarkMode) {
-            this.clearMode();
-          } else {
-            this.setDark();
-          }
-        }
-
-      } else {
-        if (this.isSysDarkPrefer) {
-          this.setLight();
-        } else {
-          this.setDark();
-        }
-      }
-
-      this.updateMermaid();
-
-    } /* flipMode() */
-
-  } /* ModeToggle */
-
-  let toggle = new ModeToggle();
-
-  $(".mode-toggle").click(function() {
-
-    toggle.flipMode();
-
-  });
-
-</script>
-
-      </span>
     
 
   </div> <!-- .sidebar-bottom -->
@@ -522,7 +369,7 @@
 
   <div class="post-preview">
     <h1>
-      <a href="/posts/Start-Blog/">블로그</a>
+      <a href="/posts/TEST/">test2</a>
     </h1>
 
     <div class="post-content">
@@ -533,11 +380,17 @@
 
 
 
-         GitBlog 시작 
-
-
-GitBlog 개설👩‍💻
-
+        삐빅. 텍스트 테스트 업로드 테스트.
+“jekyll tag 기능 추가”
+.
+├──_includes
+|   ├── archive.html
+|   ├── disqus.html
+|   ├── footer.html
+|   ├── google_analytics.html
+|   ├── head.html
+|   ├── header.html
+|   ├── js.ht...
       </p>
     </div>
 
@@ -558,17 +411,17 @@ GitBlog 개설👩‍💻
   
     data-toggle="tooltip"
     data-placement="bottom"
-    title="Wed, Feb 24, 2021,  3:00 PM +0900"
+    title="Thu, Apr 29, 2021, 12:00 AM +0900"
   >
 
   
   
 
   
-    Feb 24
+    Apr 29
   
 
-  <i class="unloaded">2021-02-24T15:00:00+09:00</i>
+  <i class="unloaded">2021-04-29T00:00:00+09:00</i>
 
 </span>
 
@@ -584,7 +437,7 @@ GitBlog 개설👩‍💻
 
 
 <!-- return element -->
-<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="7 words">1 min</span>
+<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="123 words">1 min</span>
 
 
         <!-- page views -->
@@ -601,7 +454,7 @@ GitBlog 개설👩‍💻
 
   <div class="post-preview">
     <h1>
-      <a href="/posts/test/">Sample Post</a>
+      <a href="/posts/diary4/">인공지능 개발자 과정 학습일지4</a>
     </h1>
 
     <div class="post-content">
@@ -612,21 +465,9 @@ GitBlog 개설👩‍💻
 
 
 
-        This is a sample post.
-Hover me.
+        수요일이 가장 피곤하다는 통계를 어디선가 보았는데 맞는 것 같다. 어제는 집에 도착하고 밥도 대충먹고 바로 잠이 들었다. 기절이라고 보는게 맞는 것 같다. 긴장한 한 주이기도 해서 더 피곤했나보다. 오래 잠을 자서 그런지 오늘은 매우 쌩쌩했다. 아주 초롱초롱한 눈으로 수업에 임했다.
 
-Header
-
-Head 1: ‘#’
-Head 2: ‘##’
-Head 3: ‘###’
-
-Code block
-A Python Example:
-
-def quote():
-    # Socrates
-    print('The only true wisdom is in knowing you know no...
+오늘도 여전히 R수업을 했다. 오전에는 잠깐 베이직한 네트워크를 설...
       </p>
     </div>
 
@@ -647,17 +488,17 @@ def quote():
   
     data-toggle="tooltip"
     data-placement="bottom"
-    title="Wed, Nov  1, 2017, 12:00 AM +0900"
+    title="Thu, Apr 29, 2021, 12:00 AM +0900"
   >
 
   
   
 
   
-    Nov  1, 2017
+    Apr 29
   
 
-  <i class="unloaded">2017-11-01T00:00:00+09:00</i>
+  <i class="unloaded">2021-04-29T00:00:00+09:00</i>
 
 </span>
 
@@ -673,7 +514,237 @@ def quote():
 
 
 <!-- return element -->
-<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="106 words">1 min</span>
+<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="497 words">2 min</span>
+
+
+        <!-- page views -->
+        
+      </div>
+
+      
+
+    </div> <!-- .post-meta -->
+
+  </div> <!-- .post-review -->
+
+
+
+  <div class="post-preview">
+    <h1>
+      <a href="/posts/diary3/">인공지능 개발자 과정 학습일지3</a>
+    </h1>
+
+    <div class="post-content">
+      <p>
+        
+
+
+
+
+
+        수요일에는 학교 수업이 있어서 오전에 잠깐 교육을 빠졌다. 대략 75분 정도. 오늘은 오전, 오후 모두 R 수업을 했다. 익히 알고 있는 수업이어서 그냥 듣고 있기에는 내 시간이 효율적이지 못하다고 생각했다. 그래서 파이썬 문법과 비교하면서 교육을 들었다. 나쁘지 않은 것 같다. R 프로그래밍에 대해 리마인드 시간도 가지고 파이썬도 공부하고! R 수업...
+      </p>
+    </div>
+
+    <div class="post-meta text-muted d-flex justify-content-between">
+
+      <div>
+        <!-- posted date -->
+        <i class="far fa-calendar fa-fw"></i>
+        <!--
+  Date format snippet
+
+  v2.4.1
+  https://github.com/cotes2020/jekyll-theme-chirpy
+  © 2020 Cotes Chung
+  MIT License
+-->
+<span class="timeago "
+  
+    data-toggle="tooltip"
+    data-placement="bottom"
+    title="Wed, Apr 28, 2021, 12:00 AM +0900"
+  >
+
+  
+  
+
+  
+    Apr 28
+  
+
+  <i class="unloaded">2021-04-28T00:00:00+09:00</i>
+
+</span>
+
+        <!-- time to read -->
+        <i class="far fa-clock fa-fw"></i>
+        <!--
+  Calculate the post's reading time, and display the word count in tooltip
+ -->
+
+
+
+
+
+
+<!-- return element -->
+<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="199 words">1 min</span>
+
+
+        <!-- page views -->
+        
+      </div>
+
+      
+
+    </div> <!-- .post-meta -->
+
+  </div> <!-- .post-review -->
+
+
+
+  <div class="post-preview">
+    <h1>
+      <a href="/posts/diary2/">인공지능 개발자 과정 학습일지2</a>
+    </h1>
+
+    <div class="post-content">
+      <p>
+        
+
+
+
+
+
+        오늘부터 본격적으로 교육이 시작 되었다. 아직 워밍업 단계로 기초를 다지는 주인 것 같다. 뭐든 베이스가 탄탄해야 나중에 가서 흔들리지 않는다고 생각한다.
+
+오전에는 인공지능이 대체 무엇인지 그 틀을 잡아주는 수업이었던 것 같다. 오후에는 우리가 사용할 R에 대해서 프로그래밍 관점에서 먼저 다가가고 후에 자료형, 자료구조, 논리연산 등을 직접 실행해보...
+      </p>
+    </div>
+
+    <div class="post-meta text-muted d-flex justify-content-between">
+
+      <div>
+        <!-- posted date -->
+        <i class="far fa-calendar fa-fw"></i>
+        <!--
+  Date format snippet
+
+  v2.4.1
+  https://github.com/cotes2020/jekyll-theme-chirpy
+  © 2020 Cotes Chung
+  MIT License
+-->
+<span class="timeago "
+  
+    data-toggle="tooltip"
+    data-placement="bottom"
+    title="Tue, Apr 27, 2021, 12:00 AM +0900"
+  >
+
+  
+  
+
+  
+    Apr 27
+  
+
+  <i class="unloaded">2021-04-27T00:00:00+09:00</i>
+
+</span>
+
+        <!-- time to read -->
+        <i class="far fa-clock fa-fw"></i>
+        <!--
+  Calculate the post's reading time, and display the word count in tooltip
+ -->
+
+
+
+
+
+
+<!-- return element -->
+<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="402 words">2 min</span>
+
+
+        <!-- page views -->
+        
+      </div>
+
+      
+
+    </div> <!-- .post-meta -->
+
+  </div> <!-- .post-review -->
+
+
+
+  <div class="post-preview">
+    <h1>
+      <a href="/posts/diary1/">인공지능 개발자 과정 학습일지1</a>
+    </h1>
+
+    <div class="post-content">
+      <p>
+        
+
+
+
+
+
+        첫 날은 오리엔테이션이 있었다. 취업특강에 가까운 수업을 9시부터 18시까지 진행했다. 오전에는 나의 뉴스에 대해서 적고 짧게 발표하는 시간을 가졌다.
+생각보다 내가 무슨 일을 했고 무엇을 경험했는지 ‘기억’이 가물가물했다. 21년도 1~4월 까지의 일인데도 말이다..  ​기록하는 습관의 중요성을 여기서 깊게 느꼈다.
+
+오후에는 기업/직무/나의 분석에...
+      </p>
+    </div>
+
+    <div class="post-meta text-muted d-flex justify-content-between">
+
+      <div>
+        <!-- posted date -->
+        <i class="far fa-calendar fa-fw"></i>
+        <!--
+  Date format snippet
+
+  v2.4.1
+  https://github.com/cotes2020/jekyll-theme-chirpy
+  © 2020 Cotes Chung
+  MIT License
+-->
+<span class="timeago "
+  
+    data-toggle="tooltip"
+    data-placement="bottom"
+    title="Mon, Apr 26, 2021, 12:00 AM +0900"
+  >
+
+  
+  
+
+  
+    Apr 26
+  
+
+  <i class="unloaded">2021-04-26T00:00:00+09:00</i>
+
+</span>
+
+        <!-- time to read -->
+        <i class="far fa-clock fa-fw"></i>
+        <!--
+  Calculate the post's reading time, and display the word count in tooltip
+ -->
+
+
+
+
+
+
+<!-- return element -->
+<span class="readtime" data-toggle="tooltip" data-placement="bottom" title="315 words">1 min</span>
 
 
         <!-- page views -->
@@ -749,10 +820,27 @@ def quote():
 
   
 
+    
+    
+    
+    
+    
+
+    
+
+    
+      <!-- show number -->
+      <li class="page-item ">
+        <a class="page-link btn-box-shadow" href="/page3/">3</a>
+      </li>
+    
+
+  
+
   <!-- right arrow -->
   
-  <li class="page-item disabled">
-    <a class="page-link btn-box-shadow" href="#" aria-label="next-page">
+  <li class="page-item ">
+    <a class="page-link btn-box-shadow" href="/page3" aria-label="next-page">
       <i class="fas fa-angle-right"></i>
     </a>
   </li>
