@@ -15,7 +15,7 @@ description: My name is Sohee. I just write sohui because the pronunciation is f
 # A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.
 
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
-url: 'https://sohui96.github.io'
+url: "https://sohui96.github.io/"
 
 author: KIMSOHEE                  # change to your full name
 
