@@ -1,2 +1,5 @@
 User-agent: *
-Allow: /
+
+Disallow: /norobots/
+
+Sitemap: https://sohui96.github.io/sitemap.xml

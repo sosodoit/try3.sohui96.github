@@ -1,8 +1,0 @@
-# _data/theme.yml
-navigation_pages:
-  - posts.md
-  - recipes.md
-  - about.md
-  - cv.md
-  - tags.md
-  - categories.md
