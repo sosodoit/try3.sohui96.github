@@ -3,7 +3,7 @@
 {
   "name": "Hello, Here is work diary.",
   "short_name": "Hello, Here is work diary.",
-  "description": "My name is Sohee. I just write sohui because the pronunciation is fun. And my nickname is Nigella.",
+  "description": "A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.",
   "icons": [
     {
       "src": "/assets/img/favicons/android-icon-36x36.png",

@@ -9,9 +9,10 @@ title: Hello, Here is work diary. # the main title
 
 tagline: 수다쟁이 개발자 Big Data Analyst & Developer # it will display as the sub-title
 
-description: My name is Sohee. I just write sohui because the pronunciation is fun. And my nickname is Nigella.
-# used by seo meta and the atom feed
-# A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.
+description: >-                        # used by seo meta and the atom feed
+  A minimal, portfolio, sidebar,
+  bootstrap Jekyll theme with responsive web design
+  and focuses on text presentation.
 
 # fill in the base hostname & protocol for your site, e.g., 'https://username.github.io'
 url: https://sohui96.github.io
@@ -29,7 +30,8 @@ twitter:
 social:
   name: KIMSOHEE                # it will shows as the copyright owner in Footer
   email: helloahri21@naver.com  # change to your email address
-  links: https://github.com/sohui96
+  links: 
+    - https://github.com/sohui96
     # The first element serves as the copyright owner's link
     # change to your github homepage
     # Uncomment below to add more social links
@@ -42,22 +44,18 @@ google_site_verification: # change to your verification string
 
 # Only if your site type is GitHub Project sites and doesn't have a custom domain,
 # change below value to '/projectname'.
-baseurl:
+baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Seoul
 
 
-#google_analytics:
-#  id:             # Fill with your Google Analytics ID
-#  pv:
-    # The Google Analytics pageviews switch.
-    # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
-#    enabled: false
-    # the next options only valid when `google_analytics.pv` is enabled.
-#    proxy_url: ''
-#    proxy_endpoint: ''
-#    cache: false  # pv data local cache, good for the users from GFW area.
+google_analytics:
+  id: ''              # fill in your Google Analytics ID
+  # Google Analytics pageviews report settings
+  pv:
+    proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
+    cache_path:       # the local PV cache data, friendly to visitors from GFW region
 
 disqus:
   comments: ture  # boolean type, the global switch for posts comments.

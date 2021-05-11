@@ -3,8 +3,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://sohui96.github.io</id>
   <title>Hello, Here is work diary.</title>
-  <subtitle>My name is Sohee. I just write sohui because the pronunciation is fun. And my nickname is Nigella.</subtitle>
-  <updated>2021-05-11T23:20:32+09:00</updated>
+  <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
+  <updated>2021-05-11T23:50:14+09:00</updated>
   <author>
     <name>KIMSOHEE</name>
     <uri>https://sohui96.github.io</uri>
