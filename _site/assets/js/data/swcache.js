@@ -45,7 +45,7 @@ const resource = [
 const allowedDomains = [
   
 
-  'sohui96.github.io/',
+  'sohui96.github.io',
 
   'fonts.gstatic.com',
   'fonts.googleapis.com',
