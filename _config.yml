@@ -30,9 +30,9 @@ twitter:
 social:
   name: KIMSOHEE                # it will shows as the copyright owner in Footer
   email: helloahri21@naver.com  # change to your email address
-  links:
+  links: https://github.com/sohui96
     # The first element serves as the copyright owner's link
-    - https://github.com/sohui96      # change to your github homepage
+    # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
