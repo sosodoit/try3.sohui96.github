@@ -52,13 +52,6 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-theme-chirpy (4.0.1)
-      jekyll (~> 4.1)
-      jekyll-archives (~> 2.2)
-      jekyll-paginate (~> 1.1)
-      jekyll-redirect-from (~> 0.16)
-      jekyll-seo-tag (~> 2.7)
-      jekyll-sitemap (~> 1.4)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.3.1)
@@ -71,10 +64,10 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     mini_portile2 (2.5.1)
-    nokogiri (1.11.3)
+    nokogiri (1.11.4)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
-    nokogiri (1.11.3-x64-mingw32)
+    nokogiri (1.11.4-x64-mingw32)
       racc (~> 1.4)
     nokogumbo (2.0.5)
       nokogiri (~> 1.8, >= 1.8.4)
@@ -119,7 +112,6 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
-  jekyll-theme-chirpy
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

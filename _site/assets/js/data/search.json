@@ -3,7 +3,7 @@
   {
     "title": "5/17 예정",
     "url": "/posts/diary15/",
-    "categories": "AI Developer Educ., records",
+    "categories": "AI Developer Educ, records",
     "tags": "AI, 개발자",
     "date": "2021-05-17 00:00:00 +0900",
     
@@ -18,7 +18,7 @@
   {
     "title": "미니프로젝트 시작",
     "url": "/posts/pro1/",
-    "categories": "AI Developer Educ., project1",
+    "categories": "AI Developer Educ, project1",
     "tags": "AI, 개발자",
     "date": "2021-05-16 00:00:00 +0900",
     
@@ -33,7 +33,7 @@
   {
     "title": "사업소개2",
     "url": "/posts/intro2/",
-    "categories": "AI Developer Educ., intro",
+    "categories": "AI Developer Educ, intro",
     "tags": "AI, 개발자",
     "date": "2021-05-16 00:00:00 +0900",
     
@@ -48,7 +48,7 @@
   {
     "title": "사업소개",
     "url": "/posts/intro/",
-    "categories": "AI Developer Educ., intro",
+    "categories": "AI Developer Educ, intro",
     "tags": "AI, 개발자",
     "date": "2021-05-16 00:00:00 +0900",
     
@@ -61,9 +61,9 @@
   },
   
   {
-    "title": "추천시스템(Recommender System) - 원리와 구현",
+    "title": "추천시스템(Recommender System)",
     "url": "/posts/post3/",
-    "categories": "Machine Learning",
+    "categories": "MachineLearning",
     "tags": "AI, ML, Workflow",
     "date": "2021-05-16 00:00:00 +0900",
     
@@ -78,7 +78,7 @@
   {
     "title": "머신러닝 프로젝트 관리 방법",
     "url": "/posts/post2/",
-    "categories": "Machine Learning",
+    "categories": "MachineLearning",
     "tags": "AI, ML, Workflow",
     "date": "2021-05-16 00:00:00 +0900",
     
@@ -93,7 +93,7 @@
   {
     "title": "ML Workflow",
     "url": "/posts/post1/",
-    "categories": "Machine Learning",
+    "categories": "MachineLearning",
     "tags": "AI, ML, Workflow",
     "date": "2021-05-16 00:00:00 +0900",
     
@@ -108,7 +108,7 @@
   {
     "title": "5/14 머신러닝",
     "url": "/posts/diary14/",
-    "categories": "AI Developer Educ., records",
+    "categories": "AI Developer Educ, records",
     "tags": "AI, 개발자",
     "date": "2021-05-14 00:00:00 +0900",
     
@@ -123,7 +123,7 @@
   {
     "title": "5/13 머신러닝",
     "url": "/posts/diary13/",
-    "categories": "AI Developer Educ., records",
+    "categories": "AI Developer Educ, records",
     "tags": "AI, 개발자",
     "date": "2021-05-13 00:00:00 +0900",
     
@@ -138,7 +138,7 @@
   {
     "title": "5/12 추론통계학 그리고 R(10)",
     "url": "/posts/diary12/",
-    "categories": "AI Developer Educ., records",
+    "categories": "AI Developer Educ, records",
     "tags": "AI, 개발자",
     "date": "2021-05-12 00:00:00 +0900",
     
@@ -153,7 +153,7 @@
   {
     "title": "5/11 추론통계학 그리고 R(9)",
     "url": "/posts/diary11/",
-    "categories": "AI Developer Educ., records",
+    "categories": "AI Developer Educ, records",
     "tags": "AI, 개발자",
     "date": "2021-05-11 00:00:00 +0900",
     
@@ -168,7 +168,7 @@
   {
     "title": "5/10 추론통계학 그리고 R(8)",
     "url": "/posts/diary10/",
-    "categories": "AI Developer Educ., records",
+    "categories": "AI Developer Educ, records",
     "tags": "AI, 개발자",
     "date": "2021-05-10 00:00:00 +0900",
     
@@ -183,7 +183,7 @@
   {
     "title": "5/7 추론통계학",
     "url": "/posts/diary9/",
-    "categories": "AI Developer Educ., records",
+    "categories": "AI Developer Educ, records",
     "tags": "AI, 개발자",
     "date": "2021-05-07 00:00:00 +0900",
     
@@ -198,7 +198,7 @@
   {
     "title": "5/6 기술통계학 그리고 R(7)",
     "url": "/posts/diary8/",
-    "categories": "AI Developer Educ., records",
+    "categories": "AI Developer Educ, records",
     "tags": "AI, 개발자",
     "date": "2021-05-06 00:00:00 +0900",
     
@@ -213,7 +213,7 @@
   {
     "title": "5/4 Do it Book R(6)",
     "url": "/posts/diary7/",
-    "categories": "AI Developer Educ., records",
+    "categories": "AI Developer Educ, records",
     "tags": "AI, 개발자",
     "date": "2021-05-04 00:00:00 +0900",
     
@@ -228,7 +228,7 @@
   {
     "title": "5/3 기술통계학 그리고 R(5)",
     "url": "/posts/diary6/",
-    "categories": "AI Developer Educ., records",
+    "categories": "AI Developer Educ, records",
     "tags": "AI, 개발자",
     "date": "2021-05-03 00:00:00 +0900",
     
@@ -243,7 +243,7 @@
   {
     "title": "4/30 텍스트마이닝 R(4)",
     "url": "/posts/diary5/",
-    "categories": "AI Developer Educ., records",
+    "categories": "AI Developer Educ, records",
     "tags": "AI, 개발자",
     "date": "2021-04-30 00:00:00 +0900",
     
@@ -258,7 +258,7 @@
   {
     "title": "4/29 기초문법에 대하여 R(3)",
     "url": "/posts/diary4/",
-    "categories": "AI Developer Educ., records",
+    "categories": "AI Developer Educ, records",
     "tags": "AI, 개발자",
     "date": "2021-04-29 00:00:00 +0900",
     
@@ -273,7 +273,7 @@
   {
     "title": "4/28 기초문법에 대하여 R(2)",
     "url": "/posts/diary3/",
-    "categories": "AI Developer Educ., records",
+    "categories": "AI Developer Educ, records",
     "tags": "AI, 개발자",
     "date": "2021-04-28 00:00:00 +0900",
     
@@ -288,7 +288,7 @@
   {
     "title": "4/27 교육시작, R(1)",
     "url": "/posts/diary2/",
-    "categories": "AI Developer Educ., records",
+    "categories": "AI Developer Educ, records",
     "tags": "AI, 개발자",
     "date": "2021-04-27 00:00:00 +0900",
     
@@ -303,7 +303,7 @@
   {
     "title": "4/26 과정 소개 및 취업특강",
     "url": "/posts/diary1/",
-    "categories": "AI Developer Educ., records",
+    "categories": "AI Developer Educ, records",
     "tags": "AI, 개발자",
     "date": "2021-04-26 00:00:00 +0900",
     
@@ -318,7 +318,7 @@
   {
     "title": "jekyll을 이용한 Github 블로그",
     "url": "/posts/start/",
-    "categories": "GitHub-Pages",
+    "categories": "GitHubPages",
     "tags": "jekyll, github",
     "date": "2021-04-17 00:00:00 +0900",
     
@@ -327,13 +327,13 @@
 
 
 
-    "snippet": " ❦ GitBlog 개설  ❧ 2/4 테스트 구현 ~catbook 테마에서 여러 기능을 추가네비게이션 기능으로 인한 과부화 걸림카테고리화 기능으로 인한 뇌손상 예상주 업무가 아님으로 구조 이해만으로 끝냄테마 변경 결정 ❧ 4/17 최종 구현chirpy 테마 결정"
+    "snippet": "chirpy 테마 결정"
   },
   
   {
     "title": "Sample Post",
     "url": "/posts/test/",
-    "categories": "TEST, md 작성법",
+    "categories": "TEST, md작성법",
     "tags": "",
     "date": "2017-11-01 00:00:00 +0900",
     
