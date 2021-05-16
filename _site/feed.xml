@@ -4,7 +4,7 @@
   <id>https://sohui96.github.io</id>
   <title>Hello, Here is work diary.</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-05-11T23:50:14+09:00</updated>
+  <updated>2021-05-17T01:51:42+09:00</updated>
   <author>
     <name>KIMSOHEE</name>
     <uri>https://sohui96.github.io</uri>
@@ -19,21 +19,23 @@
 
   
   <entry>
-    <title>인공지능 개발자 과정 학습일지9</title>
-    <link href="https://sohui96.github.io/posts/diary9/" rel="alternate" type="text/html" title="인공지능 개발자 과정 학습일지9" />
-    <published>2021-05-07T00:00:00+09:00</published>
+    <title>5/17 예정</title>
+    <link href="https://sohui96.github.io/posts/diary15/" rel="alternate" type="text/html" title="5/17 예정" />
+    <published>2021-05-17T00:00:00+09:00</published>
   
-    <updated>2021-05-07T00:00:00+09:00</updated>
+    <updated>2021-05-17T00:00:00+09:00</updated>
   
-    <id>https://sohui96.github.io/posts/diary9/</id>
-    <content src="https://sohui96.github.io/posts/diary9/" />
+    <id>https://sohui96.github.io/posts/diary15/</id>
+    <content src="https://sohui96.github.io/posts/diary15/" />
     <author>
       <name>KIMSOHEE</name>
     </author>
 
   
     
-    <category term="AI developer Diary" />
+    <category term="AI Developer Educ." />
+    
+    <category term="records" />
     
   
 
@@ -45,114 +47,9 @@
 
 
 
-      오늘 하루는 추론통계학을 진행하였고 실습은 없었다. 또.. 오늘은 정말 아무것도 집중이 안되는 날이었다. 머리가 쉬고 싶었나보다.. 그래서 쉬게 해줬다. ㅎㅎ.. 지킬 블로그 커스터마이징하면서 쉬었다.. 네비게이션은 정말.. 이해할 수 없다..
+       
+인공지능 개발자 과정 학습일지15 
 
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>인공지능 개발자 과정 학습일지8</title>
-    <link href="https://sohui96.github.io/posts/diary8/" rel="alternate" type="text/html" title="인공지능 개발자 과정 학습일지8" />
-    <published>2021-05-06T00:00:00+09:00</published>
-  
-    <updated>2021-05-06T00:00:00+09:00</updated>
-  
-    <id>https://sohui96.github.io/posts/diary8/</id>
-    <content src="https://sohui96.github.io/posts/diary8/" />
-    <author>
-      <name>KIMSOHEE</name>
-    </author>
-
-  
-    
-    <category term="AI developer Diary" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      오전에는 기술통계학(공분산, 상관계수 등)을 마무리하고 오후에 추론통계학을 들어갔다. 여기에 doitbook 9장 실습을 곁들어서. 최근에는 통계학 이론 수업을 진행 중이어서 파이썬을 같이 보면서 듣고 있다. 아무래도 통계학과를 나와서 시간이 조금 아깝다는 생각이 들었다. 기억안나는 부분은 집중해서 듣되 그 시간에 파이썬을 함께 공부했다.
-
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>인공지능 개발자 과정 학습일지7</title>
-    <link href="https://sohui96.github.io/posts/diary7/" rel="alternate" type="text/html" title="인공지능 개발자 과정 학습일지7" />
-    <published>2021-05-04T00:00:00+09:00</published>
-  
-    <updated>2021-05-04T00:00:00+09:00</updated>
-  
-    <id>https://sohui96.github.io/posts/diary7/</id>
-    <content src="https://sohui96.github.io/posts/diary7/" />
-    <author>
-      <name>KIMSOHEE</name>
-    </author>
-
-  
-    
-    <category term="AI developer Diary" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      오늘은 하루 종일 R실습을 하였다. Do it book 6장, 관계형 데이터베이스, 7장을 나갔고 다음주 부터는 팀 미니프로젝트를 진행한다고 한다. 기간은 10일에서 21일 발표로 약 2주. 주제는 뭐가 좋을까? 이번주 동안 주제와 데이터 수집에 관해서 고민을 해야할 것 같다.
-
-학습일지 방향을 어떻게 잡으면 좋을지 고민이다. 그냥 그날그날 뭐 배웠는지와 내생각을 쓸지.. 코드까지 올리면서 기술적인 내용을 작성해볼지. 어떤 방향이 내게 이로울까? 우선은 꾸준함에 중요성을 두고 있기 때문에 내 생각 위주로 작성하는 중이다. 고민만 하다가 뒤로 미루는 것보다 실천하면서 방향을 수정해 나가면 되니까! 급 ‘애자일’이 생각나네..
-
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>인공지능 개발자 과정 학습일지6</title>
-    <link href="https://sohui96.github.io/posts/diary6/" rel="alternate" type="text/html" title="인공지능 개발자 과정 학습일지6" />
-    <published>2021-05-03T00:00:00+09:00</published>
-  
-    <updated>2021-05-03T00:00:00+09:00</updated>
-  
-    <id>https://sohui96.github.io/posts/diary6/</id>
-    <content src="https://sohui96.github.io/posts/diary6/" />
-    <author>
-      <name>KIMSOHEE</name>
-    </author>
-
-  
-    
-    <category term="AI developer Diary" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      오전에는 통계학 학습을 하고 이후에 쭉 R 실습을 진행하였다. ‘Do it’이라는 R 책을 따라하며 학습하였고 오늘은 4장 ~ 6장 초반까지 진행하였다.
 
 
     </summary>
@@ -162,21 +59,23 @@
 
   
   <entry>
-    <title>인공지능 개발자 과정 학습일지5</title>
-    <link href="https://sohui96.github.io/posts/diary5/" rel="alternate" type="text/html" title="인공지능 개발자 과정 학습일지5" />
-    <published>2021-04-30T00:00:00+09:00</published>
+    <title>미니프로젝트 시작</title>
+    <link href="https://sohui96.github.io/posts/pro1/" rel="alternate" type="text/html" title="미니프로젝트 시작" />
+    <published>2021-05-16T00:00:00+09:00</published>
   
-    <updated>2021-04-30T00:00:00+09:00</updated>
+    <updated>2021-05-16T00:00:00+09:00</updated>
   
-    <id>https://sohui96.github.io/posts/diary5/</id>
-    <content src="https://sohui96.github.io/posts/diary5/" />
+    <id>https://sohui96.github.io/posts/pro1/</id>
+    <content src="https://sohui96.github.io/posts/pro1/" />
     <author>
       <name>KIMSOHEE</name>
     </author>
 
   
     
-    <category term="AI developer Diary" />
+    <category term="AI Developer Educ." />
+    
+    <category term="project1" />
     
   
 
@@ -188,11 +87,189 @@
 
 
 
-      오전에는 텍스트마이닝 실습을 하였다. 그 전에 품사태깅 의 원리도 알아보았다. 실습환경은 R로 KoNLP라이브러리 를 사용해서 했고 정규표현식 을 활용하여 몇 가지 R문법 과 함께 코드를 짜보았다. 과제로 제주도 추천 여행 코스 분석이 주어졌는데 제주도에서 추천되는 여행코스로 많이 소개되는 지명을 워드클라우드로 시각화를 해보았다. 여러 방법이 있겠지만 필요 없는 단어들을 지우다가 문득 %in% 으로 지명을 뽑아내는 것이 생각나서 지우는 과정없이 %in%을 사용했다. 그 전에 필요 없는 단어를 지우고 하는게 더 좋았을까?​
+      
 
-여러 방법을 시도해본 결과, 흠.. 사실 결과는 거의 같았다.
+ 
+정식기간: 2021/05/17 ~ 2021/05/28 (약 2주)
+ 
 
-​원 데이터가 문제인지 내 문법오류인지는 모르겠으나 차이가 보이지 않아서 처음에 했던 대로 제출을 하였다. 내가 짠 ...
+5/10 주제고민 및 선정, 데이터 탐색(신용카드)
+5/11 주제고민 및 선정, 데이터 탐색(따릉이, 기상데이터)
+5/12 데이터 탐색(따릉이, 기상데이터)
+5/13 프로젝트 기획 발표 및 주제 재탐색
+5/14 주제 재탐색(게임, 코로나, 금, 코인, 국민여가활동실태 등)
+5/15 ~ 16 주말동안 추천시스템이 무엇인지 감 잡아오기
+
+
+ 
+주제고민 
+: 2021/05/10 ~ 2021/05/14 완료
+
+
+
+데이콘에서 진행 중인 신용카드 연체 예측부터 따릉이와 날씨 연관성, 배치소 및 인력 최적 배치 시스템, 날씨 빅데이터 콘테스트 공모전, 게임 사용자 예측 등의 주제들이 나왔다. 비전공자도 포함되어 있는 프로젝트이기 때문에 ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>사업소개2</title>
+    <link href="https://sohui96.github.io/posts/intro2/" rel="alternate" type="text/html" title="사업소개2" />
+    <published>2021-05-16T00:00:00+09:00</published>
+  
+    <updated>2021-05-16T00:00:00+09:00</updated>
+  
+    <id>https://sohui96.github.io/posts/intro2/</id>
+    <content src="https://sohui96.github.io/posts/intro2/" />
+    <author>
+      <name>KIMSOHEE</name>
+    </author>
+
+  
+    
+    <category term="AI Developer Educ." />
+    
+    <category term="intro" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      click: 이전글 “사업소개”
+
+ 
+KFQ Career Center 과정 
+
+
+KFQ 한국품질재단에서 주관하는 혁신성장 청년인재 양성은 인공지능/빅데이터/스마트공장 분야에서 사용되고 있는 실무 기술과 노하우를 6개월동안 트레이닝하며 현업에서 사용되고 있는 실무 프로젝트를 현직자와 함께 만들어가는 과정이다. 교육일정이 크게 실무이론과정과 산업별 맞춤형 산학협력 프로젝트가 각 3개월씩 이루어져 있다.
+
+KFQ에서는 세 가지 과정이 있다.
+
+  프로젝트 기반의 스마트팩토리 SW개발자 양성 [서울/부산/안동]
+  프로젝트 기반의 인공지능 개발자 양성 [서울/부산/안동]
+  프로젝트 기반의 빅데이터 분석가 양성 [서울/세종]
+
+
+ 
+왜 KFQ를 선택했나요? 
+
+본 사업은 많은 기관에서 여러 교육이 진행되고 있...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>사업소개</title>
+    <link href="https://sohui96.github.io/posts/intro/" rel="alternate" type="text/html" title="사업소개" />
+    <published>2021-05-16T00:00:00+09:00</published>
+  
+    <updated>2021-05-16T00:00:00+09:00</updated>
+  
+    <id>https://sohui96.github.io/posts/intro/</id>
+    <content src="https://sohui96.github.io/posts/intro/" />
+    <author>
+      <name>KIMSOHEE</name>
+    </author>
+
+  
+    
+    <category term="AI Developer Educ." />
+    
+    <category term="intro" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      click: 다음글 “필자가 선택한 기관소개”
+
+ 
+본 과정은 어디에서 주최되고 있는 건가요? 
+
+전담부처는 과학기술정보통신부, 전담기관은 정보통신기획평가원이다. 전담기관아래에 컨소시업N으로 그 안에 주간기관+참여기관으로 이루어져있다. 예를들어, 내가 참여하고 있는 기관은 KFQ에서 주간하며 한가람IT, 메가넥스트에서 참여기관으로 있다. 틀릴 수 도 있다.. KFQ 직원분들과 한가람IT, 온라인교육 메가넥스트를 본 근거로 말한 것이다.
+
+
+  사업기간은 2019년~2021년, 연차평가를 통해 과제별 최대 3년 지원으로 진행
+  사업내용은 산업체 전문가 멘토링을 통한 프로젝트 수행을 기반으로 프로젝트 진행과 분야별 전문지식 습득에 필요한 6개월 이내 집중 교육과정 운영
+
+
+Detail:
+
+  4차 산업혁...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>추천시스템(Recommender System) - 원리와 구현</title>
+    <link href="https://sohui96.github.io/posts/post3/" rel="alternate" type="text/html" title="추천시스템(Recommender System) - 원리와 구현" />
+    <published>2021-05-16T00:00:00+09:00</published>
+  
+    <updated>2021-05-16T00:00:00+09:00</updated>
+  
+    <id>https://sohui96.github.io/posts/post3/</id>
+    <content src="https://sohui96.github.io/posts/post3/" />
+    <author>
+      <name>KIMSOHEE</name>
+    </author>
+
+  
+    
+    <category term="Machine Learning" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      이는 학습용으로 캐글에 있는 내용을 필사/번역한 내용이다.
+
+ 
+추천 시스템 관련 자료
+
+추천시스템 관련 추천 사이트
+
+넷플릭스1 에서 공개한 추천시스템 설명
+
+넷플릭스2 평점 이외의 다양한 평가 방식 설명
+
+R 라이브러리 Recommenderlab 저자의 추천시스템 발표 자료
+
+ 
+영화 추천 시스템(Movies Recommender System)
+
+
+영화 데이터 분석 및 추천시스템
+
+(1) 영화 수익과 영화 성공을 예측하고, output(수익과 성공)에 영향을 미치는 feature를 시각화하기 위해 예측 모델 두개를 구축
+
+(2) 몇 가지 추천 알고리즘을 구현하고, 최종 추천 시스템을 완성하기 위해 모델의 앙상블을 구축
+
+
+  추천 시스템을 구축하기 위해 두 개의 MobieLens 데이터 세트를 사용...
     </summary>
   
 
